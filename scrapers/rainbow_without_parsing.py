@@ -3,6 +3,7 @@ import json
 import datetime
 import os
 import logging
+#from tours.tour import Tour
 
 # logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
 logging.basicConfig(level=logging.INFO)
@@ -20,125 +21,8 @@ DIR = '/home/krasnal/Projects/ToursAnalytics/'  # TODO: move to settings
 
 # trip_type = 'objazd'
 
-def get_tours_list(tour_type: str, page: int, limit: int) -> list:
-    json_data = {
-        'AtrybutyMulti': {
-            'TypyWyjazdu': [
-                tour_type
-            ],
-            'Lokalizacje_HoteloProdukt': [],
-            'Miasta': [],
-        },
-        'AtrybutySingle': {
-            'DlugoscPobytu': [
-                '*-*',
-            ],
-            'Cena': [
-                'avg',
-            ],
-            'OcenaKlientow': [
-                '*-*',
-            ],
-            'OdlegloscLotnisko': [
-                '*-*',
-            ],
-        },
-        'DatyUrodzenia': [
-            '1993-01-01',
-            '1993-01-01',
-        ],
-        'LiczbaPokoi': 1,
-        'Sortowanie': 'cena-asc',
-        'CzyWeekendowka': False,
-        'PowrotNaInneLotnisko': False,
-        'Strona': page,
-        'Limit': limit,
-    }
-    response = requests.post('https://r.pl/api/wyszukiwarka/wyszukaj', json=json_data)
-    # TODO: check correct response
-    return response.json()
 
-
-def get_prices(hotel_url: str, product_url: str) -> list:
-    json_data = {
-        'HotelUrl': hotel_url,  # 'zakwaterowanie-prg',
-        'ProduktUrl': product_url,  # 'praga-express',
-        'DatyUrodzenia': [
-            '1993-01-01',
-            '1993-01-01',
-        ],
-        # 'Wyzywienie': 'sniadania',
-        'CzyV2': True,
-    }
-    response = requests.post('https://r.pl/api/wyszukiwarka/wyszukaj-kalkulator', json=json_data)
-    #TODO: check correct response
-    return response.json()
-
-
-def get_tour_details(tour_id: str, price: str, price_without_promo: str, params: dict) -> list:
-    data = {
-        'Parametry': [
-            {
-                'Id': tour_id,
-                'Cena': price,
-                'CenaBezPromocji': price_without_promo,
-                'CenyZaOsoby': [
-                    {},
-                    {},
-                ],
-                'Params': params,
-            },
-        ],
-        'CzyCenaZaOsobe': True,
-        'DatyUrodzenia': [
-            '1993-01-01',
-            '1993-01-01',
-        ],
-        'LiczbaPokoi': 1,
-        'Route': '/wycieczki-objazdowe',
-    }
-
-    response = requests.post('https://r.pl/api/bloczki/pobierz-bloczki', json=data)
-    # TODO: check correct response
-    return response.json()
-
-
-def merge_tours() -> list:
-    page_number = 0
-    count_results = 1
-    results = list()
-    while count_results > 0:
-        page_number += 1
-        response = get_tours_list('objazd', page_number, limit=10)
-        result = response['Wynik']
-        count_results = len(result)
-        results.extend(result)
-    return results
-
-
-def get_product_url(result: dict) -> str:
-    google_url = result['BazoweInformacje']['OfertaURLDlaGoogle'].split('/')
-    logging.info(google_url)
-    #TODO: check if index exist
-    return google_url[1]
-
-
-def get_hotel_url(result: dict) -> str:
-    google_url = result['BazoweInformacje']['OfertaURLDlaGoogle'].split('/')
-    logging.info(google_url)
-    #TODO: check if index exist
-    return google_url[2]
-
-
-def read_from_obj():
-    pass
-
-
-def read_from_file():
-    pass
-
-
-def save_json_to_file(data: list, file_name: str) -> None:
+def save_json_to_file(data, file_name: str) -> None:
     today = datetime.date.today().strftime('%d-%m-%Y')
     json_object = json.dumps(data, indent=4)
     file_name_with_date = f'{file_name}-{today}.json'
@@ -151,32 +35,179 @@ def save_json_to_file(data: list, file_name: str) -> None:
         outfile.write(json_object)
 
 
+class RainbowParser:
+    def __init__(self, tour_json):
+        self.tour_json = tour_json
+        self.tour_agency = 'Rainbow'
+        self.tour_agency_url = "https://r.pl/"
+        self.tour_name = tour_json["TourDetails"]["BazoweInformacje"]["OfertaNazwa"]
+        self.countries = tour_json["TourDetails"]["BazoweInformacje"]["Panstwa"]
+        self.tour_type= tour_json["TourDetails"]["BazoweInformacje"]["TypWycieczki"]
+        self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURL"]
+
+        self.grade=tour_json["TourDetails"]["Ocena"]
+        self.photos=tour_json["TourDetails"]["Zdjecia"]
+
+        self.tour_id = ""
+        self.klucz_omnibus= ""
+        self.start_locations = []
+        # food_plans = tour_json["TourDetails"]["Wyzywienia"]
+        # TODO: last minute?
+
+    def get_terms_and_prices(self):
+        terms = self.tour_json["Prices"]["Terminy"]["Terminy"]
+        for term in terms:
+            start_date = term["Termin"]
+            end_date = term["DataKoniec"]
+            nights = term["LiczbaNocy"]
+            price = term["Cena"]
+            per_person_price = term["CenaZaOsobe"]
+            active = term["CzyAktywna"]
+            approved = term["CzyPotwierdzony"]
+    def create_tour(self):
+        tour_obj = Tour(
+            tour_agency=self.tour_agency,
+            tour_agency_url=self.tour_agency_url,
+            tour_name=self.tour_name,
+            countries=self.countries,
+            tour_type=self.tour_type,
+            tour_url=self.tour_url,
+            klucz_omnibus=self.klucz_omnibus,
+            tour_id = self.tour_id,
+            food_plans= self.food_plans,
+            terms_and_prices=self.get_terms_and_prices(),
+            start_locations=self.start_locations,
+            grade = self.grade,
+            photos = self.photos
+
+        )
+        return tour_obj
+
+
+class RainbowScraper:
+    def get_prices(self, tour_details) -> list:
+        json_data = {
+            'HotelUrl': self.get_hotel_url(tour_details),  # 'zakwaterowanie-prg',
+            'ProduktUrl': self.get_product_url(tour_details),  # 'praga-express',
+            'DatyUrodzenia': [
+                '1993-01-01',
+                '1993-01-01',
+            ],
+            # 'Wyzywienie': 'sniadania',
+            'CzyV2': True,
+        }
+        response = requests.post('https://r.pl/api/wyszukiwarka/wyszukaj-kalkulator', json=json_data)
+        #TODO: check correct response
+        return response.json()
+    @staticmethod
+    def get_tour_details(tour) -> list:
+        data = {
+            'Parametry': [
+                {
+                    'Id': tour['Id'],
+                    'Cena': tour['Cena'],
+                    'CenaBezPromocji': tour['CenaBezPromocji'],
+                    'CenyZaOsoby': [
+                        {},
+                        {},
+                    ],
+                    'Params': tour['Params'],
+                },
+            ],
+            'CzyCenaZaOsobe': True,
+            'DatyUrodzenia': [
+                '1993-01-01',
+                '1993-01-01',
+            ],
+            'LiczbaPokoi': 1,
+            'Route': '/wycieczki-objazdowe',
+        }
+
+        response = requests.post('https://r.pl/api/bloczki/pobierz-bloczki', json=data)
+        # TODO: check correct response
+        return response.json()[0]
+
+    @staticmethod
+    def get_product_url(tour_details) -> str:
+        google_url = tour_details['BazoweInformacje']['OfertaURLDlaGoogle'].split('/')
+        logging.info(google_url)
+        #TODO: check if index exist
+        return google_url[1]
+
+    @staticmethod
+    def get_hotel_url(tour_details) -> str:
+        google_url = tour_details['BazoweInformacje']['OfertaURLDlaGoogle'].split('/')
+        logging.info(google_url)
+        #TODO: check if index exist
+        return google_url[2]
+
+    def merge_tours(self) -> list:
+        page_number = 0
+        count_results = 1
+        results = list()
+        while count_results > 0:
+            page_number += 1
+            response = self.get_tours_list('objazd', page_number, limit=10)
+            result = response['Wynik']
+            count_results = len(result)
+            results.extend(result)
+        return results
+
+    @staticmethod
+    def get_tours_list(tour_type: str, page: int, limit: int) -> list:
+        json_data = {
+            'AtrybutyMulti': {
+                'TypyWyjazdu': [
+                    tour_type
+                ],
+                'Lokalizacje_HoteloProdukt': [],
+                'Miasta': [],
+            },
+            'AtrybutySingle': {
+                'DlugoscPobytu': [
+                    '*-*',
+                ],
+                'Cena': [
+                    'avg',
+                ],
+                'OcenaKlientow': [
+                    '*-*',
+                ],
+                'OdlegloscLotnisko': [
+                    '*-*',
+                ],
+            },
+            'DatyUrodzenia': [
+                '1993-01-01',
+                '1993-01-01',
+            ],
+            'LiczbaPokoi': 1,
+            'Sortowanie': 'cena-asc',
+            'CzyWeekendowka': False,
+            'PowrotNaInneLotnisko': False,
+            'Strona': page,
+            'Limit': limit,
+        }
+        response = requests.post('https://r.pl/api/wyszukiwarka/wyszukaj', json=json_data)
+        # TODO: check correct response
+        return response.json()
+
+
 def main(save_to_json: bool) -> None:
-    tours = merge_tours()
+    scraper = RainbowScraper()
+    tours = scraper.merge_tours()
 
     for tour in tours:
         logging.info(tour)
-        tour_id = tour['Id']
-        price = tour['Cena']
-        price_without_promo = tour['CenaBezPromocji']
-        params = tour['Params']
-        tour_details = get_tour_details(tour_id, price, price_without_promo, params)[0]
-        logging.info("DETAILS:")
-        logging.info(tour_details)
-
-        link = get_product_url(tour_details) #google_url[1]  # 'praga-express'# result['BazoweInformacje']['OfertaURL'].split('/')[0]
-        hotel = get_hotel_url(tour_details) #google_url[2]  # 'zakwaterowanie-prg' #link.split('/')[2].split('?')[0]
-
-        prices = get_prices(hotel, link)
-
-        merged_results = {
+        tour_details = scraper.get_tour_details(tour)
+        merged_tour_details = {
             "Tour": tour,
             "TourDetails": tour_details,
-            "Prices": prices
+            "Prices": scraper.get_prices(tour_details)
         }
-
         if save_to_json:
-            save_json_to_file(merged_results, link)
+            save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
+
     if save_to_json:
         save_json_to_file(tours, f'all-results')
 
