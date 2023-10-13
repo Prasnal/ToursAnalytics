@@ -3,7 +3,9 @@ import json
 import datetime
 import os
 import logging
-#from tours.tour import Tour
+import sys
+sys.path.insert(0,'/home/krasnal/Projects/ToursAnalytics') #TODO: change this
+from tours.tour import Tour, TermsDetails
 
 # logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
 logging.basicConfig(level=logging.INFO)
@@ -42,28 +44,41 @@ class RainbowParser:
         self.tour_agency_url = "https://r.pl/"
         self.tour_name = tour_json["TourDetails"]["BazoweInformacje"]["OfertaNazwa"]
         self.countries = tour_json["TourDetails"]["BazoweInformacje"]["Panstwa"]
-        self.tour_type= tour_json["TourDetails"]["BazoweInformacje"]["TypWycieczki"]
+        self.tour_type = tour_json["TourDetails"]["BazoweInformacje"]["TypWycieczki"]
         self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURL"]
 
         self.grade=tour_json["TourDetails"]["Ocena"]
         self.photos=tour_json["TourDetails"]["Zdjecia"]
 
-        self.tour_id = ""
+        self.tour_id = 0
         self.klucz_omnibus= ""
         self.start_locations = []
         # food_plans = tour_json["TourDetails"]["Wyzywienia"]
         # TODO: last minute?
 
     def get_terms_and_prices(self):
-        terms = self.tour_json["Prices"]["Terminy"]["Terminy"]
-        for term in terms:
-            start_date = term["Termin"]
-            end_date = term["DataKoniec"]
-            nights = term["LiczbaNocy"]
-            price = term["Cena"]
-            per_person_price = term["CenaZaOsobe"]
-            active = term["CzyAktywna"]
-            approved = term["CzyPotwierdzony"]
+        if not self.tour_json["Prices"]["Terminy"]:
+            return list()
+
+        terms_length = self.tour_json["Prices"]["Terminy"]
+        terms_details_list = list()
+        for term_by_length in terms_length:
+            term_length = term_by_length["Dlugosc"]
+            terms = term_by_length["Terminy"]
+            for term in terms:
+                start_date = term["Termin"]
+                end_date = term["DataKoniec"]
+                nights = term["LiczbaNocy"]
+                price = term["Cena"]
+                per_person_price = term["CenaZaOsobe"]
+                active = term["CzyAktywna"]
+                approved = term["CzyPotwierdzony"]
+
+                terms_details_obj = TermsDetails(start_date, end_date, price, nights, approved, term_length) #TODO: exceptions
+                terms_details_list.append(terms_details_obj) #TODO: exceptions
+
+        return terms_details_list
+
     def create_tour(self):
         tour_obj = Tour(
             tour_agency=self.tour_agency,
@@ -74,7 +89,6 @@ class RainbowParser:
             tour_url=self.tour_url,
             klucz_omnibus=self.klucz_omnibus,
             tour_id = self.tour_id,
-            food_plans= self.food_plans,
             terms_and_prices=self.get_terms_and_prices(),
             start_locations=self.start_locations,
             grade = self.grade,
@@ -193,23 +207,33 @@ class RainbowScraper:
         return response.json()
 
 
-def main(save_to_json: bool) -> None:
+def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
 
     for tour in tours:
         logging.info(tour)
-        tour_details = scraper.get_tour_details(tour)
-        merged_tour_details = {
-            "Tour": tour,
-            "TourDetails": tour_details,
-            "Prices": scraper.get_prices(tour_details)
-        }
+        try:
+            tour_details = scraper.get_tour_details(tour)
+            merged_tour_details = {
+                "Tour": tour,
+                "TourDetails": tour_details,
+                "Prices": scraper.get_prices(tour_details)
+            }
+        except:
+            logging.error("ERROR WITH TOUR:", tour)
+            continue
+
         if save_to_json:
             save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
+
+        tour_obj = RainbowParser(merged_tour_details).create_tour()
+
+        if save_to_db:
+            pass
 
     if save_to_json:
         save_json_to_file(tours, f'all-results')
 
 
-main(save_to_json=True)
+main_rainbow(save_to_json=True, save_to_db=False)
