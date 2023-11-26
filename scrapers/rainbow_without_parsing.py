@@ -8,7 +8,7 @@ sys.path.insert(0,'/home/krasnal/Projects/ToursAnalytics') #TODO: change this
 from tours.tour import Tour, TermsDetails
 
 # logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.ERROR)
 DIR = '/home/krasnal/Projects/ToursAnalytics/'  # TODO: move to settings
 
 # TODO: download "odpoczynek" as well
@@ -47,7 +47,7 @@ class RainbowParser:
         self.tour_type = tour_json["TourDetails"]["BazoweInformacje"]["TypWycieczki"]
         self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURL"]
 
-        self.grade=tour_json["TourDetails"]["Ocena"]
+        self.grade=tour_json["TourDetails"]["Ocena"]['Ocena']
         self.photos=tour_json["TourDetails"]["Zdjecia"]
 
         self.tour_id = 0
@@ -206,7 +206,7 @@ class RainbowScraper:
         # TODO: check correct response
         return response.json()
 
-
+import pprint
 def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
@@ -228,6 +228,7 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
             save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
 
         tour_obj = RainbowParser(merged_tour_details).create_tour()
+        pprint.pprint(tour_obj)
 
         if save_to_db:
             pass

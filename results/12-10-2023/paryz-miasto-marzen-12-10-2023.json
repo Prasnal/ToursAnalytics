@@ -1,0 +1,1312 @@
+{
+    "Tour": {
+        "Id": "461_9675:190838:8121190",
+        "Cena": 1758,
+        "CenaBezPromocji": 2158,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 2137
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 2137
+            }
+        ],
+        "Params": "sniadania+warszawa+warszawa+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "8121190_0_1_0_K5_5_I0k_Kk_326621_904837_329859_917536_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "461_9675:190838:8121190",
+        "BazoweInformacje": {
+            "ImprezaID": 190838,
+            "HotelID": 461,
+            "LiczbaDni": 8,
+            "LiczbaNocy": 7,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "461_9675",
+            "KodProduktu": "PAO",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Francja: Pary\u017c",
+            "Panstwa": [
+                "Francja"
+            ],
+            "Regiony": [
+                "Pary\u017c"
+            ],
+            "GwiazdkiHotelu": 2,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Pary\u017c - Miasto Marze\u0144",
+            "OfertaURL": "/paryz-miasto-marzen/zakwaterowanie-pao?data=20241004&dlugoscPobytu=8&miastoWyjazdu=warszawa&iataWyjazdu=warszawa&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/paryz-miasto-marzen/zakwaterowanie-pao?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/paryz-miasto-marzen/zakwaterowanie-pao",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+warszawa+warszawa+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132207_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132202_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132209_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132208_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132206_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132205_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132203_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/461/zakwaterowanie-pao_461_132204_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5.51,
+            "IloscOcen": 115,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 1758,
+            "CenaPrzedPromocja": 1758,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2024-10-04T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa",
+                "Iata": "_WAR",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "S\u0142upsk",
+                "Iata": "_SLU",
+                "Miasto": "",
+                "MiastoURL": "slupsk",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Szczecinek",
+                "Iata": "_SZCZ",
+                "Miasto": "",
+                "MiastoURL": "szczecinek",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Ostr\u00f3da",
+                "Iata": "_OSR",
+                "Miasto": "",
+                "MiastoURL": "ostroda",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Bia\u0142ystok",
+                "Iata": "_BIA",
+                "Miasto": "",
+                "MiastoURL": "bialystok",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Opole",
+                "Iata": "_OPO",
+                "Miasto": "",
+                "MiastoURL": "opole",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Grudzi\u0105dz",
+                "Iata": "_GRU",
+                "Miasto": "",
+                "MiastoURL": "grudziadz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "I\u0142awa",
+                "Iata": "_ILA",
+                "Miasto": "",
+                "MiastoURL": "ilawa",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Tarn\u00f3w",
+                "Iata": "_TAR",
+                "Miasto": "",
+                "MiastoURL": "tarnow",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Olsztyn",
+                "Iata": "_OLS",
+                "Miasto": "",
+                "MiastoURL": "olsztyn",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Lublin",
+                "Iata": "_LUB",
+                "Miasto": "",
+                "MiastoURL": "lublin",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Kalisz",
+                "Iata": "_KAL",
+                "Miasto": "",
+                "MiastoURL": "kalisz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Gliwice",
+                "Iata": "_GLI",
+                "Miasto": "",
+                "MiastoURL": "gliwice",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Piotrk\u00f3w Tryb.",
+                "Iata": "_PIO",
+                "Miasto": "",
+                "MiastoURL": "piotrkow-tryb",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Gda\u0144sk",
+                "Iata": "_GDA",
+                "Miasto": "",
+                "MiastoURL": "gdansk",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Pi\u0142a",
+                "Iata": "_PIL",
+                "Miasto": "",
+                "MiastoURL": "pila",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Rybnik",
+                "Iata": "_RYB",
+                "Miasto": "",
+                "MiastoURL": "rybnik",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Gniezno",
+                "Iata": "_GNI",
+                "Miasto": "",
+                "MiastoURL": "gniezno",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Torzym",
+                "Iata": "_TORZ",
+                "Miasto": "",
+                "MiastoURL": "torzym",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Rzesz\u00f3w",
+                "Iata": "_RZE",
+                "Miasto": "",
+                "MiastoURL": "rzeszow",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Iata": "_KAT",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Bydgoszcz",
+                "Iata": "_BYD",
+                "Miasto": "",
+                "MiastoURL": "bydgoszcz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Koszalin",
+                "Iata": "_KOS",
+                "Miasto": "",
+                "MiastoURL": "koszalin",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Zielona G\u00f3ra",
+                "Iata": "_ZIE",
+                "Miasto": "",
+                "MiastoURL": "zielona-gora",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "\u017bory",
+                "Iata": "_ZOR",
+                "Miasto": "",
+                "MiastoURL": "zory",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Wyszk\u00f3w",
+                "Iata": "_WYS",
+                "Miasto": "",
+                "MiastoURL": "wyszkow",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Ostr\u00f3w Maz.",
+                "Iata": "_OST",
+                "Miasto": "",
+                "MiastoURL": "ostrow-maz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Gdynia",
+                "Iata": "_GDY",
+                "Miasto": "",
+                "MiastoURL": "gdynia",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Toru\u0144",
+                "Iata": "_TOR",
+                "Miasto": "",
+                "MiastoURL": "torun",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Szczecin",
+                "Iata": "_SZC",
+                "Miasto": "",
+                "MiastoURL": "szczecin",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Krak\u00f3w",
+                "Iata": "_KRA",
+                "Miasto": "",
+                "MiastoURL": "krakow",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Iata": "_WRO",
+                "Miasto": "",
+                "MiastoURL": "wroclaw",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Gorz\u00f3w Wlkp.",
+                "Iata": "_GOR",
+                "Miasto": "",
+                "MiastoURL": "gorzow-wlkp",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Radom",
+                "Iata": "_ RAD",
+                "Miasto": "",
+                "MiastoURL": "radom",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Ko\u0142obrzeg",
+                "Iata": "_KOL",
+                "Miasto": "",
+                "MiastoURL": "kolobrzeg",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Pu\u0142awy",
+                "Iata": "_PUL",
+                "Miasto": "",
+                "MiastoURL": "pulawy",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Leszno",
+                "Iata": "_LES",
+                "Miasto": "",
+                "MiastoURL": "leszno",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Iata": "_POZ 2",
+                "Miasto": "",
+                "MiastoURL": "poznan",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Tczew",
+                "Iata": "_TCZ",
+                "Miasto": "",
+                "MiastoURL": "tczew",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Iata": "_\u0141\u00d3D",
+                "Miasto": "",
+                "MiastoURL": "lodz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Kielce",
+                "Iata": "_KIE",
+                "Miasto": "",
+                "MiastoURL": "kielce",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            },
+            {
+                "Nazwa": "Dop\u0142ata",
+                "URL": ""
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "461_9675",
+        "Wybrana": {
+            "Klucz": "461_9675:190838:8121190",
+            "ImprezaId": 190838,
+            "HotelWCId": 8121190,
+            "RezerwujParametry": "?kodWycieczki=PAO&przystanekWyjazdowyId=904837&przystanekPowrotnyId=917536&wybraneWyzywienie=sniadania&hotelId=461&dataStart=2024-10-04&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=7&hotelParams=1_461_7",
+            "Cena": 3515,
+            "CenaZaOsobe": 1758,
+            "CenaZaliczka": 520,
+            "CenaBezPromocji": 4315,
+            "CenaBezPromocjiZaOsobe": 2158,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 2137
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 2137
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2137
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2137
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "warszawa",
+            "IataPowrotna": "warszawa",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+warszawa+warszawa+-",
+            "KluczOmnibus": "8121190_0_1_0_K5_5_I0k_Kk_326621_904837_329859_917536_sniadania_",
+            "PromocjeUrl": [
+                "lato-2024-znizka-na-wycieczki-objazdowe"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa",
+                "Wartosc": "warszawa",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Wartosc": "lodz",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Wartosc": "poznan",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Torzym",
+                "Wartosc": "torzym",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Wyszk\u00f3w",
+                "Wartosc": "wyszkow",
+                "Doplata": 120,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Gniezno",
+                "Wartosc": "gniezno",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Bydgoszcz",
+                "Wartosc": "bydgoszcz",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Zielona G\u00f3ra",
+                "Wartosc": "zielona-gora",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Gorz\u00f3w Wlkp.",
+                "Wartosc": "gorzow-wlkp",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Grudzi\u0105dz",
+                "Wartosc": "grudziadz",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "\u017bory",
+                "Wartosc": "zory",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Rybnik",
+                "Wartosc": "rybnik",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Toru\u0144",
+                "Wartosc": "torun",
+                "Doplata": 160,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Piotrk\u00f3w Tryb.",
+                "Wartosc": "piotrkow-tryb",
+                "Doplata": 200,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Kalisz",
+                "Wartosc": "kalisz",
+                "Doplata": 200,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Pi\u0142a",
+                "Wartosc": "pila",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Gda\u0144sk",
+                "Wartosc": "gdansk",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Tczew",
+                "Wartosc": "tczew",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Szczecin",
+                "Wartosc": "szczecin",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Radom",
+                "Wartosc": "radom",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Gdynia",
+                "Wartosc": "gdynia",
+                "Doplata": 240,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Ostr\u00f3w Maz.",
+                "Wartosc": "ostrow-maz",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Ostr\u00f3da",
+                "Wartosc": "ostroda",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "I\u0142awa",
+                "Wartosc": "ilawa",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Kielce",
+                "Wartosc": "kielce",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Pu\u0142awy",
+                "Wartosc": "pulawy",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Ko\u0142obrzeg",
+                "Wartosc": "kolobrzeg",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "S\u0142upsk",
+                "Wartosc": "slupsk",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Wartosc": "wroclaw",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Koszalin",
+                "Wartosc": "koszalin",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Szczecinek",
+                "Wartosc": "szczecinek",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Lublin",
+                "Wartosc": "lublin",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Olsztyn",
+                "Wartosc": "olsztyn",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Bia\u0142ystok",
+                "Wartosc": "bialystok",
+                "Doplata": 280,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Tarn\u00f3w",
+                "Wartosc": "tarnow",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Krak\u00f3w",
+                "Wartosc": "krakow",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Leszno",
+                "Wartosc": "leszno",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "katowice",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Gliwice",
+                "Wartosc": "gliwice",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Opole",
+                "Wartosc": "opole",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Rzesz\u00f3w",
+                "Wartosc": "rzeszow",
+                "Doplata": 320,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 8,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2024-04-28",
+                        "DataKoniec": "2024-05-05",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 4300,
+                        "CenaZaOsobe": 2150,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-03",
+                        "DataKoniec": "2024-05-10",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3638,
+                        "CenaZaOsobe": 1819,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-05",
+                        "DataKoniec": "2024-05-12",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3638,
+                        "CenaZaOsobe": 1819,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-10",
+                        "DataKoniec": "2024-05-17",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3576,
+                        "CenaZaOsobe": 1788,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-12",
+                        "DataKoniec": "2024-05-19",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3576,
+                        "CenaZaOsobe": 1788,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-17",
+                        "DataKoniec": "2024-05-24",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3639,
+                        "CenaZaOsobe": 1820,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-19",
+                        "DataKoniec": "2024-05-26",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3639,
+                        "CenaZaOsobe": 1820,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-24",
+                        "DataKoniec": "2024-05-31",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-26",
+                        "DataKoniec": "2024-06-02",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3838,
+                        "CenaZaOsobe": 1919,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-31",
+                        "DataKoniec": "2024-06-07",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-02",
+                        "DataKoniec": "2024-06-09",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-07",
+                        "DataKoniec": "2024-06-14",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-09",
+                        "DataKoniec": "2024-06-16",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-14",
+                        "DataKoniec": "2024-06-21",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-16",
+                        "DataKoniec": "2024-06-23",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-21",
+                        "DataKoniec": "2024-06-28",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-23",
+                        "DataKoniec": "2024-06-30",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-28",
+                        "DataKoniec": "2024-07-05",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-30",
+                        "DataKoniec": "2024-07-07",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-05",
+                        "DataKoniec": "2024-07-12",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-07",
+                        "DataKoniec": "2024-07-14",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-12",
+                        "DataKoniec": "2024-07-19",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-14",
+                        "DataKoniec": "2024-07-21",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-19",
+                        "DataKoniec": "2024-07-26",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-21",
+                        "DataKoniec": "2024-07-28",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-26",
+                        "DataKoniec": "2024-08-02",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-28",
+                        "DataKoniec": "2024-08-04",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-02",
+                        "DataKoniec": "2024-08-09",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-04",
+                        "DataKoniec": "2024-08-11",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-09",
+                        "DataKoniec": "2024-08-16",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-11",
+                        "DataKoniec": "2024-08-18",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-16",
+                        "DataKoniec": "2024-08-23",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-18",
+                        "DataKoniec": "2024-08-25",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3900,
+                        "CenaZaOsobe": 1950,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-23",
+                        "DataKoniec": "2024-08-30",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-25",
+                        "DataKoniec": "2024-09-01",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3839,
+                        "CenaZaOsobe": 1920,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-30",
+                        "DataKoniec": "2024-09-06",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3704,
+                        "CenaZaOsobe": 1852,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-01",
+                        "DataKoniec": "2024-09-08",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3704,
+                        "CenaZaOsobe": 1852,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-06",
+                        "DataKoniec": "2024-09-13",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-08",
+                        "DataKoniec": "2024-09-15",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3770,
+                        "CenaZaOsobe": 1885,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-13",
+                        "DataKoniec": "2024-09-20",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3704,
+                        "CenaZaOsobe": 1852,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-15",
+                        "DataKoniec": "2024-09-22",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3704,
+                        "CenaZaOsobe": 1852,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-20",
+                        "DataKoniec": "2024-09-27",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3639,
+                        "CenaZaOsobe": 1820,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-22",
+                        "DataKoniec": "2024-09-29",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3639,
+                        "CenaZaOsobe": 1820,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-27",
+                        "DataKoniec": "2024-10-04",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3576,
+                        "CenaZaOsobe": 1788,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-29",
+                        "DataKoniec": "2024-10-06",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3576,
+                        "CenaZaOsobe": 1788,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-04",
+                        "DataKoniec": "2024-10-11",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3515,
+                        "CenaZaOsobe": 1758,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "",
+                "Wartosc": "",
+                "Doplata": 760,
+                "CzyAktywna": false
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 3515,
+        "CenaMax": 4300,
+        "TerminMin": "2024-04-28",
+        "TerminMax": "2024-10-04",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

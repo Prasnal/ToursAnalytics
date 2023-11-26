@@ -1,0 +1,246 @@
+{
+    "Tour": {
+        "Id": "2562_9073:165392:6560348",
+        "Cena": 4561,
+        "CenaBezPromocji": 4861,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 4560
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 4560
+            }
+        ],
+        "Params": "2-posilki+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd + wypoczynek",
+        "KluczOmnibusaKwalifikowany": "6560348_0_1_0_K7_7_I0k_Kk_269572_756138_269673_756343_2-posilki_"
+    },
+    "TourDetails": {
+        "BloczekId": "2562_9073:165392:6560348",
+        "BazoweInformacje": {
+            "ImprezaID": 165392,
+            "HotelID": 2562,
+            "LiczbaDni": 8,
+            "LiczbaNocy": 7,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "2562_9073",
+            "KodProduktu": "HAR",
+            "TypWycieczki": "objazd + wypoczynek",
+            "Lokalizacje": "Hiszpania: Costa Almeria",
+            "Panstwa": [
+                "Hiszpania"
+            ],
+            "Regiony": [
+                "Costa Almeria"
+            ],
+            "GwiazdkiHotelu": 4,
+            "NazwaHoteluWWW": "Playacapricho",
+            "OfertaNazwa": "Andaluzja dla Wygodnych",
+            "OfertaURL": "/andaluzja-dla-wygodnych/playacapricho?data=20231009&dlugoscPobytu=8&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=2-posilki&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/andaluzja-dla-wygodnych/playacapricho?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/andaluzja-dla-wygodnych/playacapricho",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "2-posilki+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199316_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199318_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199322_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199323_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199329_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199326_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199327_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199314_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199328_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199317_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199319_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199320_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199313_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199321_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199325_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199330_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199315_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2562/playacapricho_2562_199324_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5.19,
+            "IloscOcen": 88,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 4561,
+            "CenaPrzedPromocja": 4561,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-10-09T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            },
+            {
+                "Nazwa": "All inclusive",
+                "URL": "all-inclusive"
+            }
+        ],
+        "Fiszki": [
+            {
+                "Nazwa": "Happy Hours",
+                "Opis": "Od poniedzia\u0142ku do pi\u0105tku, w godzinach 13:00 - 15:00, wybrane oferty w \u015bwietnych cenach! ",
+                "PokazNaWWW": false,
+                "PokazBorder": false,
+                "KolorHex": "#FFFFFF"
+            },
+            {
+                "Nazwa": "Last Minute!",
+                "Opis": "Oferty z kr\u00f3tkim czasem do wylotu. Wybierz si\u0119 na spontaniczny urlop z Rainbow! ",
+                "PokazNaWWW": false,
+                "PokazBorder": false,
+                "KolorHex": "#FFFFFF"
+            }
+        ],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "2562_9073",
+        "Wybrana": {
+            "Klucz": "2562_9073:165392:6560348",
+            "ImprezaId": 165392,
+            "HotelWCId": 6560348,
+            "RezerwujParametry": "?kodWycieczki=HAR&przystanekWyjazdowyId=756138&przystanekPowrotnyId=756343&wybraneWyzywienie=2-posilki&hotelId=2562&dataStart=2023-10-09&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=7&hotelParams=1_2562_7",
+            "Cena": 9122,
+            "CenaZaOsobe": 4561,
+            "CenaZaliczka": 0,
+            "CenaBezPromocji": 9722,
+            "CenaBezPromocjiZaOsobe": 4861,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 4560
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 4560
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4560
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4560
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "2-posilki+WAW+WAW+-",
+            "KluczOmnibus": "6560348_0_1_0_K7_7_I0k_Kk_269572_756138_269673_756343_2-posilki_",
+            "PromocjeUrl": [
+                "happy-hours"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 8,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-10-09",
+                        "DataKoniec": "2023-10-16",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 9122,
+                        "CenaZaOsobe": 4561,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": true
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 0,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "All inclusive",
+                "Wartosc": "all-inclusive",
+                "Doplata": 1568,
+                "CzyAktywna": false
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 9122,
+        "CenaMax": 9122,
+        "TerminMin": "2023-10-09",
+        "TerminMax": "2023-10-09",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

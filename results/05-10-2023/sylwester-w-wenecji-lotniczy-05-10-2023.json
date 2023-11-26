@@ -1,0 +1,220 @@
+{
+    "Tour": {
+        "Id": "4295_9527:179530:7626311",
+        "Cena": 2919,
+        "CenaBezPromocji": 3119,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 2918
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 2918
+            }
+        ],
+        "Params": "sniadania+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7626311_0_1_0_K5_5_I0k_Kk_305630_851361_305631_851364_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "4295_9527:179530:7626311",
+        "BazoweInformacje": {
+            "ImprezaID": 179530,
+            "HotelID": 4295,
+            "LiczbaDni": 5,
+            "LiczbaNocy": 4,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "4295_9527",
+            "KodProduktu": "SWE",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "W\u0142ochy: Wenecja Euganejska",
+            "Panstwa": [
+                "W\u0142ochy"
+            ],
+            "Regiony": [
+                "Wenecja Euganejska"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Sylwester w Wenecji Lotniczy",
+            "OfertaURL": "/sylwester-w-wenecji-lotniczy/zakwaterowanie-swe?data=20231229&dlugoscPobytu=5&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/sylwester-w-wenecji-lotniczy/zakwaterowanie-swe?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/sylwester-w-wenecji-lotniczy/zakwaterowanie-swe",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95411_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95412_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95413_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95414_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95415_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4295/zakwaterowanie-swe_4295_95416_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 3,
+            "IloscOcen": 1,
+            "CzyPokazywac": false
+        },
+        "Cena": {
+            "CenaAktualna": 2919,
+            "CenaPrzedPromocja": 2919,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-12-29T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            },
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "4295_9527",
+        "Wybrana": {
+            "Klucz": "4295_9527:179530:7626311",
+            "ImprezaId": 179530,
+            "HotelWCId": 7626311,
+            "RezerwujParametry": "?kodWycieczki=SWE&przystanekWyjazdowyId=851361&przystanekPowrotnyId=851364&wybraneWyzywienie=sniadania&hotelId=4295&dataStart=2023-12-29&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=4&hotelParams=1_4295_4",
+            "Cena": 5838,
+            "CenaZaOsobe": 2919,
+            "CenaZaliczka": 870,
+            "CenaBezPromocji": 6238,
+            "CenaBezPromocjiZaOsobe": 3119,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 2918
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 2918
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2918
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2918
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+WAW+WAW+-",
+            "KluczOmnibus": "7626311_0_1_0_K5_5_I0k_Kk_305630_851361_305631_851364_sniadania_",
+            "PromocjeUrl": [
+                "narty-i-sylwester-przedsprzedaz-23-24"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 5,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-29",
+                        "DataKoniec": "2024-01-02",
+                        "LiczbaNocy": 4,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 5838,
+                        "CenaZaOsobe": 2919,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 900,
+                "CzyAktywna": false
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 5838,
+        "CenaMax": 5838,
+        "TerminMin": "2023-12-29",
+        "TerminMax": "2023-12-29",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

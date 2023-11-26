@@ -1,0 +1,556 @@
+{
+    "Tour": {
+        "Id": "4623_9889:191733:8126381",
+        "Cena": 16200,
+        "CenaBezPromocji": 16700,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 16199
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 16199
+            }
+        ],
+        "Params": "2-posilki+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "8126381_0_1_0_K5_5_I0k_Kk_333050_932511_333068_932548_2-posilki_"
+    },
+    "TourDetails": {
+        "BloczekId": "4623_9889:191733:8126381",
+        "BazoweInformacje": {
+            "ImprezaID": 191733,
+            "HotelID": 4623,
+            "LiczbaDni": 12,
+            "LiczbaNocy": 10,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "4623_9889",
+            "KodProduktu": "PRV",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Peru: Lima",
+            "Panstwa": [
+                "Peru"
+            ],
+            "Regiony": [
+                "Lima"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Cuda \u015awiata - Machu Picchu Premium",
+            "OfertaURL": "/cuda-swiata-machu-picchu-deluxe/zakwaterowanie-prv?data=20240507&dlugoscPobytu=12&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=2-posilki&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/cuda-swiata-machu-picchu-deluxe/zakwaterowanie-prv?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/cuda-swiata-machu-picchu-deluxe/zakwaterowanie-prv",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "2-posilki+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_107564_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101833_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101834_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101839_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101829_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101830_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101831_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101832_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101835_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101836_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101837_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4623/zakwaterowanie-prv_4623_101838_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": null,
+            "IloscOcen": null,
+            "CzyPokazywac": false
+        },
+        "Cena": {
+            "CenaAktualna": 16200,
+            "CenaPrzedPromocja": 16200,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2024-05-07T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "4623_9889",
+        "Wybrana": {
+            "Klucz": "4623_9889:191733:8126381",
+            "ImprezaId": 191733,
+            "HotelWCId": 8126381,
+            "RezerwujParametry": "?kodWycieczki=PRV&przystanekWyjazdowyId=932511&przystanekPowrotnyId=932548&wybraneWyzywienie=2-posilki&hotelId=4623&dataStart=2024-05-07&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=10&hotelParams=1_4623_10",
+            "Cena": 32400,
+            "CenaZaOsobe": 16200,
+            "CenaZaliczka": 4860,
+            "CenaBezPromocji": 33400,
+            "CenaBezPromocjiZaOsobe": 16700,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 16199
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 16199
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 16199
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 16199
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "2-posilki+WAW+WAW+-",
+            "KluczOmnibus": "8126381_0_1_0_K5_5_I0k_Kk_333050_932511_333068_932548_2-posilki_",
+            "PromocjeUrl": [
+                "lato-2024-znizka-na-wycieczki-objazdowe"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 12,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-10-31",
+                        "DataKoniec": "2023-11-10",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33941,
+                        "CenaZaOsobe": 16971,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-11-06",
+                        "DataKoniec": "2023-11-16",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33851,
+                        "CenaZaOsobe": 16926,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-11-13",
+                        "DataKoniec": "2023-11-23",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33838,
+                        "CenaZaOsobe": 16919,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-11-17",
+                        "DataKoniec": "2023-11-27",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 34235,
+                        "CenaZaOsobe": 17118,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-11-19",
+                        "DataKoniec": "2023-11-29",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 34252,
+                        "CenaZaOsobe": 17126,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-12-26",
+                        "DataKoniec": "2024-01-05",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 34252,
+                        "CenaZaOsobe": 17126,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-17",
+                        "DataKoniec": "2024-02-27",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33838,
+                        "CenaZaOsobe": 16919,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-23",
+                        "DataKoniec": "2024-03-04",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33914,
+                        "CenaZaOsobe": 16957,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-29",
+                        "DataKoniec": "2024-03-10",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33838,
+                        "CenaZaOsobe": 16919,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-11",
+                        "DataKoniec": "2024-03-21",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32887,
+                        "CenaZaOsobe": 16444,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-27",
+                        "DataKoniec": "2024-04-06",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32887,
+                        "CenaZaOsobe": 16444,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-30",
+                        "DataKoniec": "2024-04-09",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32887,
+                        "CenaZaOsobe": 16444,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-08",
+                        "DataKoniec": "2024-04-18",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33270,
+                        "CenaZaOsobe": 16635,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-18",
+                        "DataKoniec": "2024-04-28",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 33563,
+                        "CenaZaOsobe": 16782,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-26",
+                        "DataKoniec": "2024-05-06",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32850,
+                        "CenaZaOsobe": 16425,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-27",
+                        "DataKoniec": "2024-05-07",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32772,
+                        "CenaZaOsobe": 16386,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-30",
+                        "DataKoniec": "2024-05-10",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32684,
+                        "CenaZaOsobe": 16342,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-07",
+                        "DataKoniec": "2024-05-17",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32400,
+                        "CenaZaOsobe": 16200,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-14",
+                        "DataKoniec": "2024-05-24",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 32400,
+                        "CenaZaOsobe": 16200,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-05-28",
+                        "DataKoniec": "2024-06-07",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 36440,
+                        "CenaZaOsobe": 18220,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-11",
+                        "DataKoniec": "2024-06-21",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 35698,
+                        "CenaZaOsobe": 17849,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-19",
+                        "DataKoniec": "2024-06-29",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 36340,
+                        "CenaZaOsobe": 18170,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-25",
+                        "DataKoniec": "2024-07-05",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 37898,
+                        "CenaZaOsobe": 18949,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-02",
+                        "DataKoniec": "2024-07-12",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38998,
+                        "CenaZaOsobe": 19499,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-16",
+                        "DataKoniec": "2024-07-26",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 41198,
+                        "CenaZaOsobe": 20599,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-30",
+                        "DataKoniec": "2024-08-09",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 45340,
+                        "CenaZaOsobe": 22670,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-13",
+                        "DataKoniec": "2024-08-23",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 45340,
+                        "CenaZaOsobe": 22670,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-20",
+                        "DataKoniec": "2024-08-30",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 45340,
+                        "CenaZaOsobe": 22670,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-27",
+                        "DataKoniec": "2024-09-06",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 45340,
+                        "CenaZaOsobe": 22670,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-03",
+                        "DataKoniec": "2024-09-13",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 36040,
+                        "CenaZaOsobe": 18020,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-10",
+                        "DataKoniec": "2024-09-20",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38598,
+                        "CenaZaOsobe": 19299,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-17",
+                        "DataKoniec": "2024-09-27",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38598,
+                        "CenaZaOsobe": 19299,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-24",
+                        "DataKoniec": "2024-10-04",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38598,
+                        "CenaZaOsobe": 19299,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-01",
+                        "DataKoniec": "2024-10-11",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38598,
+                        "CenaZaOsobe": 19299,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-08",
+                        "DataKoniec": "2024-10-18",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 38598,
+                        "CenaZaOsobe": 19299,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 32400,
+        "CenaMax": 45340,
+        "TerminMin": "2023-10-31",
+        "TerminMax": "2024-10-08",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

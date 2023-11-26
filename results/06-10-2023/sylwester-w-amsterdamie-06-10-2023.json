@@ -1,0 +1,207 @@
+{
+    "Tour": {
+        "Id": "1999_9694:179685:7657702",
+        "Cena": 2719,
+        "CenaBezPromocji": 3019,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 2719
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 2719
+            }
+        ],
+        "Params": "sniadania+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7657702_0_1_0_K5_5_I0k_Kk_305980_852313_305981_852316_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "1999_9694:179685:7657702",
+        "BazoweInformacje": {
+            "ImprezaID": 179685,
+            "HotelID": 1999,
+            "LiczbaDni": 4,
+            "LiczbaNocy": 3,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "1999_9694",
+            "KodProduktu": "SAS",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Holandia: Holandia P\u00f3\u0142nocna",
+            "Panstwa": [
+                "Holandia"
+            ],
+            "Regiony": [
+                "Holandia P\u00f3\u0142nocna"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": null,
+            "OfertaNazwa": "Sylwester w Amsterdamie",
+            "OfertaURL": "/sylwester-w-amsterdamie/zakwaterowanie-sas?data=20231230&dlugoscPobytu=4&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/sylwester-w-amsterdamie/zakwaterowanie-sas?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/sylwester-w-amsterdamie/zakwaterowanie-sas",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/1999/zakwaterowanie-sas_1999_63062_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/1999/zakwaterowanie-sas_1999_63063_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/1999/zakwaterowanie-sas_1999_63064_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": null,
+            "IloscOcen": null,
+            "CzyPokazywac": false
+        },
+        "Cena": {
+            "CenaAktualna": 2719,
+            "CenaPrzedPromocja": 2719,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-12-30T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "1999_9694",
+        "Wybrana": {
+            "Klucz": "1999_9694:179685:7657702",
+            "ImprezaId": 179685,
+            "HotelWCId": 7657702,
+            "RezerwujParametry": "?kodWycieczki=SAS&przystanekWyjazdowyId=852313&przystanekPowrotnyId=852316&wybraneWyzywienie=sniadania&hotelId=1999&dataStart=2023-12-30&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=3&hotelParams=1_1999_3",
+            "Cena": 5439,
+            "CenaZaOsobe": 2720,
+            "CenaZaliczka": 810,
+            "CenaBezPromocji": 6039,
+            "CenaBezPromocjiZaOsobe": 3020,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 2719
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 2719
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2719
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2719
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+WAW+WAW+-",
+            "KluczOmnibus": "7657702_0_1_0_K5_5_I0k_Kk_305980_852313_305981_852316_sniadania_",
+            "PromocjeUrl": [
+                "narty-i-sylwester-przedsprzedaz-23-24"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 4,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-30",
+                        "DataKoniec": "2024-01-02",
+                        "LiczbaNocy": 3,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 5439,
+                        "CenaZaOsobe": 2720,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 5439,
+        "CenaMax": 5439,
+        "TerminMin": "2023-12-30",
+        "TerminMax": "2023-12-30",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

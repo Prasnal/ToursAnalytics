@@ -1,0 +1,233 @@
+{
+    "Tour": {
+        "Id": "341_9486:177147:7296663",
+        "Cena": 2847,
+        "CenaBezPromocji": 3147,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 2846
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 2846
+            }
+        ],
+        "Params": "sniadania+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7296663_0_1_0_K100_100_I0k_Kk_303111_846126_303114_846133_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "341_9486:177147:7296663",
+        "BazoweInformacje": {
+            "ImprezaID": 177147,
+            "HotelID": 341,
+            "LiczbaDni": 5,
+            "LiczbaNocy": 4,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "341_9486",
+            "KodProduktu": "SPA",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Francja: Pary\u017c",
+            "Panstwa": [
+                "Francja"
+            ],
+            "Regiony": [
+                "Pary\u017c"
+            ],
+            "GwiazdkiHotelu": 2,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Sylwester w Pary\u017cu Lotniczy",
+            "OfertaURL": "/sylwester-w-paryzu-lotniczy/zakwaterowanie-spa?data=20231230&dlugoscPobytu=5&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/sylwester-w-paryzu-lotniczy/zakwaterowanie-spa?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/sylwester-w-paryzu-lotniczy/zakwaterowanie-spa",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132310_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132309_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132311_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132312_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132313_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132314_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132315_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_132316_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/341/zakwaterowanie-spa_341_63272_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 4.77,
+            "IloscOcen": 13,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 2847,
+            "CenaPrzedPromocja": 2847,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-12-30T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "341_9486",
+        "Wybrana": {
+            "Klucz": "341_9486:177147:7296663",
+            "ImprezaId": 177147,
+            "HotelWCId": 7296663,
+            "RezerwujParametry": "?kodWycieczki=SPA&przystanekWyjazdowyId=846126&przystanekPowrotnyId=846133&wybraneWyzywienie=sniadania&hotelId=341&dataStart=2023-12-30&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=4&hotelParams=1_341_4",
+            "Cena": 5694,
+            "CenaZaOsobe": 2847,
+            "CenaZaliczka": 850,
+            "CenaBezPromocji": 6294,
+            "CenaBezPromocjiZaOsobe": 3147,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 2846
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 2846
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2846
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 2846
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+WAW+WAW+-",
+            "KluczOmnibus": "7296663_0_1_0_K100_100_I0k_Kk_303111_846126_303114_846133_sniadania_",
+            "PromocjeUrl": [
+                "narty-i-sylwester-przedsprzedaz-23-24"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 5,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-28",
+                        "DataKoniec": "2024-01-01",
+                        "LiczbaNocy": 4,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 5894,
+                        "CenaZaOsobe": 2947,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-12-29",
+                        "DataKoniec": "2024-01-02",
+                        "LiczbaNocy": 4,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 5714,
+                        "CenaZaOsobe": 2857,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-12-30",
+                        "DataKoniec": "2024-01-03",
+                        "LiczbaNocy": 4,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 5694,
+                        "CenaZaOsobe": 2847,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": true
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 5694,
+        "CenaMax": 5894,
+        "TerminMin": "2023-12-28",
+        "TerminMax": "2023-12-30",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

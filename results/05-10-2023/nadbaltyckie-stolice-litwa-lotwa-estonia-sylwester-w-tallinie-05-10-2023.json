@@ -1,0 +1,311 @@
+{
+    "Tour": {
+        "Id": "2462_9701:179684:7657701",
+        "Cena": 1669,
+        "CenaBezPromocji": 1869,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 1669
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 1669
+            }
+        ],
+        "Params": "sniadania+augustow+augustow+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7657701_0_1_0_K5_5_I0k_Kk_305811_851952_305817_851967_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "2462_9701:179684:7657701",
+        "BazoweInformacje": {
+            "ImprezaID": 179684,
+            "HotelID": 2462,
+            "LiczbaDni": 5,
+            "LiczbaNocy": 4,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "2462_9701",
+            "KodProduktu": "STL",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Litwa, \u0141otwa, Estonia",
+            "Panstwa": [
+                "Litwa",
+                "\u0141otwa",
+                "Estonia"
+            ],
+            "Regiony": [
+                "Ryga",
+                "Harjumaa",
+                "okr\u0119g wile\u0144ski"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": null,
+            "OfertaNazwa": "Nadba\u0142tyckie stolice \u2013 Litwa-\u0141otwa-Estonia \u2013 Sylwester w Tallinie",
+            "OfertaURL": "/nadbaltyckie-stolice-litwa-lotwa-estonia-sylwester-w-tallinie/zakwaterowanie-stl?data=20231229&dlugoscPobytu=5&miastoWyjazdu=augustow&iataWyjazdu=augustow&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/nadbaltyckie-stolice-litwa-lotwa-estonia-sylwester-w-tallinie/zakwaterowanie-stl?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/nadbaltyckie-stolice-litwa-lotwa-estonia-sylwester-w-tallinie/zakwaterowanie-stl",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+augustow+augustow+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_58973_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_58974_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_58975_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_56996_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_56997_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_56998_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2462/zakwaterowanie-stl_2462_56999_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5,
+            "IloscOcen": 6,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 1669,
+            "CenaPrzedPromocja": 1669,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-12-29T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "August\u00f3w",
+                "Iata": "_AUG",
+                "Miasto": "",
+                "MiastoURL": "augustow",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Warszawa",
+                "Iata": "_WAR",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Iata": "_\u0141\u00d3D",
+                "Miasto": "",
+                "MiastoURL": "lodz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Iata": "_POZ 2",
+                "Miasto": "",
+                "MiastoURL": "poznan",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Iata": "_WRO",
+                "Miasto": "",
+                "MiastoURL": "wroclaw",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Iata": "_KAT",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Cz\u0119stochowa",
+                "Iata": "_CZE",
+                "Miasto": "",
+                "MiastoURL": "czestochowa",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "2462_9701",
+        "Wybrana": {
+            "Klucz": "2462_9701:179684:7657701",
+            "ImprezaId": 179684,
+            "HotelWCId": 7657701,
+            "RezerwujParametry": "?kodWycieczki=STL&przystanekWyjazdowyId=851952&przystanekPowrotnyId=851967&wybraneWyzywienie=sniadania&hotelId=2462&dataStart=2023-12-29&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=4&hotelParams=1_2462_4",
+            "Cena": 3338,
+            "CenaZaOsobe": 1669,
+            "CenaZaliczka": 500,
+            "CenaBezPromocji": 3738,
+            "CenaBezPromocjiZaOsobe": 1869,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 1669
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 1669
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 1669
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 1669
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "augustow",
+            "IataPowrotna": "augustow",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+augustow+augustow+-",
+            "KluczOmnibus": "7657701_0_1_0_K5_5_I0k_Kk_305811_851952_305817_851967_sniadania_",
+            "PromocjeUrl": [
+                "narty-i-sylwester-przedsprzedaz-23-24"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "August\u00f3w",
+                "Wartosc": "augustow",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Wartosc": "lodz",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Warszawa",
+                "Wartosc": "warszawa",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Cz\u0119stochowa",
+                "Wartosc": "czestochowa",
+                "Doplata": 360,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "katowice",
+                "Doplata": 400,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Wartosc": "wroclaw",
+                "Doplata": 440,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Wartosc": "poznan",
+                "Doplata": 480,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 5,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-29",
+                        "DataKoniec": "2024-01-02",
+                        "LiczbaNocy": 4,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3338,
+                        "CenaZaOsobe": 1669,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 3338,
+        "CenaMax": 3338,
+        "TerminMin": "2023-12-29",
+        "TerminMax": "2023-12-29",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

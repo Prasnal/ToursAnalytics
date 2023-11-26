@@ -1,0 +1,339 @@
+{
+    "Tour": {
+        "Id": "562_9572:187519:8060554",
+        "Cena": 1690,
+        "CenaBezPromocji": 1990,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 1690
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 1690
+            }
+        ],
+        "Params": "sniadania+warszawa+warszawa+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "8060554_0_1_0_K5_5_I0k_Kk_329930_918111_330489_920353_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "562_9572:187519:8060554",
+        "BazoweInformacje": {
+            "ImprezaID": 187519,
+            "HotelID": 562,
+            "LiczbaDni": 8,
+            "LiczbaNocy": 8,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "562_9572",
+            "KodProduktu": "BSZ",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Litwa, \u0141otwa, Estonia",
+            "Panstwa": [
+                "Litwa",
+                "\u0141otwa",
+                "Estonia"
+            ],
+            "Regiony": [
+                "Ryga",
+                "Harjumaa",
+                "okr\u0119g wile\u0144ski",
+                "okr\u0119g k\u0142ajpedzki"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Ba\u0142tyckim Szlakiem",
+            "OfertaURL": "/baltyckim-szlakiem/zakwaterowanie-bsz?data=20240914&dlugoscPobytu=8&miastoWyjazdu=warszawa&iataWyjazdu=warszawa&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/baltyckim-szlakiem/zakwaterowanie-bsz?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/baltyckim-szlakiem/zakwaterowanie-bsz",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+warszawa+warszawa+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131300_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131294_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131303_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131302_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131301_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131299_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131298_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131297_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131296_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/562/zakwaterowanie-bsz_562_131295_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 4.89,
+            "IloscOcen": 79,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 1690,
+            "CenaPrzedPromocja": 1690,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2024-09-14T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa",
+                "Iata": "_WAR",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Iata": "_\u0141\u00d3D",
+                "Miasto": "",
+                "MiastoURL": "lodz",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Suwa\u0142ki",
+                "Iata": "_SUW",
+                "Miasto": "",
+                "MiastoURL": "suwalki",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Iata": "_WRO",
+                "Miasto": "",
+                "MiastoURL": "wroclaw",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Iata": "_POZ 2",
+                "Miasto": "",
+                "MiastoURL": "poznan",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Iata": "_KAT",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": false,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "562_9572",
+        "Wybrana": {
+            "Klucz": "562_9572:187519:8060554",
+            "ImprezaId": 187519,
+            "HotelWCId": 8060554,
+            "RezerwujParametry": "?kodWycieczki=BSZ&przystanekWyjazdowyId=918111&przystanekPowrotnyId=920353&wybraneWyzywienie=sniadania&hotelId=562&dataStart=2024-09-14&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=8&hotelParams=1_562_8",
+            "Cena": 3381,
+            "CenaZaOsobe": 1691,
+            "CenaZaliczka": 500,
+            "CenaBezPromocji": 3981,
+            "CenaBezPromocjiZaOsobe": 1991,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 1690
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 1690
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 1690
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 1690
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "warszawa",
+            "IataPowrotna": "warszawa",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+warszawa+warszawa+-",
+            "KluczOmnibus": "8060554_0_1_0_K5_5_I0k_Kk_329930_918111_330489_920353_sniadania_",
+            "PromocjeUrl": [
+                "lato-2024-znizka-na-wycieczki-objazdowe"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa",
+                "Wartosc": "warszawa",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "Suwa\u0142ki",
+                "Wartosc": "suwalki",
+                "Doplata": 0,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "\u0141\u00f3d\u017a",
+                "Wartosc": "lodz",
+                "Doplata": 600,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "katowice",
+                "Doplata": 1000,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Wartosc": "wroclaw",
+                "Doplata": 1100,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Pozna\u0144",
+                "Wartosc": "poznan",
+                "Doplata": 1200,
+                "TypTransportu": "BUS",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 8,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2024-04-27",
+                        "DataKoniec": "2024-05-05",
+                        "LiczbaNocy": 8,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3438,
+                        "CenaZaOsobe": 1719,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-22",
+                        "DataKoniec": "2024-06-30",
+                        "LiczbaNocy": 8,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 4581,
+                        "CenaZaOsobe": 2291,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-07-20",
+                        "DataKoniec": "2024-07-28",
+                        "LiczbaNocy": 8,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 4281,
+                        "CenaZaOsobe": 2141,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-08-17",
+                        "DataKoniec": "2024-08-25",
+                        "LiczbaNocy": 8,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3438,
+                        "CenaZaOsobe": 1719,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-14",
+                        "DataKoniec": "2024-09-22",
+                        "LiczbaNocy": 8,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 3381,
+                        "CenaZaOsobe": 1691,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 3381,
+        "CenaMax": 4581,
+        "TerminMin": "2024-04-27",
+        "TerminMax": "2024-09-14",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

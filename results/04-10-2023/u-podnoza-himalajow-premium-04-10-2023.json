@@ -1,0 +1,261 @@
+{
+    "Object": {
+        "Id": "2364_9214:170281:7039302",
+        "Cena": 8176,
+        "CenaBezPromocji": 8576,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 8175
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 8175
+            }
+        ],
+        "Params": "2-posilki+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7039302_0_1_0_K5_5_I0k_Kk_299389_838642_299413_838691_2-posilki_"
+    },
+    "Data": {
+        "BloczekId": "2364_9214:170281:7039302",
+        "BazoweInformacje": {
+            "ImprezaID": 170281,
+            "HotelID": 2364,
+            "LiczbaDni": 11,
+            "LiczbaNocy": 10,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "2364_9214",
+            "KodProduktu": "IXN",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Nepal i Indie",
+            "Panstwa": [
+                "Nepal",
+                "Indie"
+            ],
+            "Regiony": [
+                "Prowincja 3",
+                "Gujarat"
+            ],
+            "GwiazdkiHotelu": 4,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "U podn\u00f3\u017ca Himalaj\u00f3w Premium",
+            "OfertaURL": "/u-podnoza-himalajow-premium/zakwaterowanie-ixn?data=20240208&dlugoscPobytu=11&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=2-posilki&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/u-podnoza-himalajow-premium/zakwaterowanie-ixn?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/u-podnoza-himalajow-premium/zakwaterowanie-ixn",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "2-posilki+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101971_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101970_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_102108_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101967_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101972_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101968_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101965_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101966_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_101969_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_65398_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_65401_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_65402_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_65403_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_65404_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2364/zakwaterowanie-ixn_2364_63135_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5.43,
+            "IloscOcen": 7,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 8176,
+            "CenaPrzedPromocja": 8176,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2024-02-08T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "2364_9214",
+        "Wybrana": {
+            "Klucz": "2364_9214:170281:7039302",
+            "ImprezaId": 170281,
+            "HotelWCId": 7039302,
+            "RezerwujParametry": "?kodWycieczki=IXN&przystanekWyjazdowyId=838642&przystanekPowrotnyId=838691&wybraneWyzywienie=2-posilki&hotelId=2364&dataStart=2024-02-08&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=10&hotelParams=1_2364_10",
+            "Cena": 16351,
+            "CenaZaOsobe": 8176,
+            "CenaZaliczka": 2450,
+            "CenaBezPromocji": 17151,
+            "CenaBezPromocjiZaOsobe": 8576,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 8175
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 8175
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 8175
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 8175
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "2-posilki+WAW+WAW+-",
+            "KluczOmnibus": "7039302_0_1_0_K5_5_I0k_Kk_299389_838642_299413_838691_2-posilki_",
+            "PromocjeUrl": [
+                "krolestwo-egzotyki"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 11,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-21",
+                        "DataKoniec": "2023-12-31",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 19310,
+                        "CenaZaOsobe": 9655,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-01-25",
+                        "DataKoniec": "2024-02-04",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 16493,
+                        "CenaZaOsobe": 8247,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-08",
+                        "DataKoniec": "2024-02-18",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 16351,
+                        "CenaZaOsobe": 8176,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-29",
+                        "DataKoniec": "2024-03-10",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 16494,
+                        "CenaZaOsobe": 8247,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-04-25",
+                        "DataKoniec": "2024-05-05",
+                        "LiczbaNocy": 10,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 16787,
+                        "CenaZaOsobe": 8394,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 16351,
+        "CenaMax": 19310,
+        "TerminMin": "2023-12-21",
+        "TerminMax": "2024-04-25",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}
