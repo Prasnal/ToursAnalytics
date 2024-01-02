@@ -1,0 +1,305 @@
+{
+    "Tour": {
+        "Id": "4439_9551:189452:8093344",
+        "Cena": 7072,
+        "CenaBezPromocji": 7672,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 7072
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 7072
+            }
+        ],
+        "Params": "sniadania+KTW+KTW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "8093344_0_1_0_K63_63_I0k_Kk_332772_931945_332812_932026_sniadania_"
+    },
+    "TourDetails": {
+        "BloczekId": "4439_9551:189452:8093344",
+        "BazoweInformacje": {
+            "ImprezaID": 189452,
+            "HotelID": 4439,
+            "LiczbaDni": 7,
+            "LiczbaNocy": 6,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "4439_9551",
+            "KodProduktu": "FDN",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Norwegia",
+            "Panstwa": [
+                "Norwegia"
+            ],
+            "Regiony": [],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Drog\u0105 renifer\u00f3w na Przyl\u0105dek P\u00f3\u0142nocny",
+            "OfertaURL": "/droga-reniferow-na-przyladek-polnocny/zakwaterowanie-fdn?data=20240607&dlugoscPobytu=7&miastoWyjazdu=katowice&iataWyjazdu=KTW&wyzywienie=sniadania&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/droga-reniferow-na-przyladek-polnocny/zakwaterowanie-fdn?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/droga-reniferow-na-przyladek-polnocny/zakwaterowanie-fdn",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "sniadania+KTW+KTW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103671_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103669_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103672_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103665_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103666_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103673_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4439/zakwaterowanie-fdn_4439_103670_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 4.75,
+            "IloscOcen": 2,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 7072,
+            "CenaPrzedPromocja": 7072,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2024-06-07T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Katowice",
+                "Iata": "KTW",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "URL": "sniadania"
+            },
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "4439_9551",
+        "Wybrana": {
+            "Klucz": "4439_9551:189452:8093344",
+            "ImprezaId": 189452,
+            "HotelWCId": 8093344,
+            "RezerwujParametry": "?kodWycieczki=FDN&przystanekWyjazdowyId=931945&przystanekPowrotnyId=932026&wybraneWyzywienie=sniadania&hotelId=4439&dataStart=2024-06-07&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=6&hotelParams=1_4439_6",
+            "Cena": 14144,
+            "CenaZaOsobe": 7072,
+            "CenaZaliczka": 2120,
+            "CenaBezPromocji": 15344,
+            "CenaBezPromocjiZaOsobe": 7672,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 7072
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 7072
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 7072
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 7072
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "KTW",
+            "IataPowrotna": "KTW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "sniadania+KTW+KTW+-",
+            "KluczOmnibus": "8093344_0_1_0_K63_63_I0k_Kk_332772_931945_332812_932026_sniadania_",
+            "PromocjeUrl": [
+                "lato-2024-znizka-na-wycieczki-objazdowe"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "KTW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 237,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 7,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2024-06-07",
+                        "DataKoniec": "2024-06-13",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14144,
+                        "CenaZaOsobe": 7072,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-21",
+                        "DataKoniec": "2024-06-27",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14891,
+                        "CenaZaOsobe": 7446,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-07-05",
+                        "DataKoniec": "2024-07-11",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 15917,
+                        "CenaZaOsobe": 7959,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-07-19",
+                        "DataKoniec": "2024-07-25",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 15580,
+                        "CenaZaOsobe": 7790,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-08-02",
+                        "DataKoniec": "2024-08-08",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14895,
+                        "CenaZaOsobe": 7448,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-16",
+                        "DataKoniec": "2024-08-22",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14895,
+                        "CenaZaOsobe": 7448,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-08-30",
+                        "DataKoniec": "2024-09-05",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14492,
+                        "CenaZaOsobe": 7246,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-06",
+                        "DataKoniec": "2024-09-12",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 14300,
+                        "CenaZaOsobe": 7150,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania",
+                "Wartosc": "sniadania",
+                "Doplata": 0,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 2640,
+                "CzyAktywna": false
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 14144,
+        "CenaMax": 15917,
+        "TerminMin": "2024-06-07",
+        "TerminMax": "2024-09-06",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}

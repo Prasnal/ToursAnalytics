@@ -1,0 +1,380 @@
+{
+    "Tour": {
+        "Id": "2838_9194:171255:7059595",
+        "Cena": 12511,
+        "CenaBezPromocji": 13411,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 12510
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 12510
+            }
+        ],
+        "Params": "2-posilki+KTW+KTW+7059605",
+        "KategoriaWycieczki": "objazd + wypoczynek",
+        "KluczOmnibusaKwalifikowany": "7059595_7059605_1_1_K7_7_I0k_K7_7_I0k_302595_845086_302580_845057_2-posilki_2-posilki_"
+    },
+    "TourDetails": {
+        "BloczekId": "2838_9194:171255:7059595",
+        "BazoweInformacje": {
+            "ImprezaID": 171255,
+            "HotelID": 2838,
+            "LiczbaDni": 8,
+            "LiczbaNocy": 6,
+            "LiczbaDniPrzedluzenie": 4,
+            "KluczProduktHotel": "2838_9194",
+            "KodProduktu": "SMC",
+            "TypWycieczki": "objazd + wypoczynek",
+            "Lokalizacje": "Sri Lanka i Malediwy",
+            "Panstwa": [
+                "Sri Lanka",
+                "Malediwy"
+            ],
+            "Regiony": [
+                "Zachodnia Sri Lanka"
+            ],
+            "GwiazdkiHotelu": 2,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Esencja Cejlonu z wypoczynkiem na Malediwach",
+            "OfertaURL": "/esencja-cejlonu-z-wypoczynkiem-na-malediwach/zakwaterowanie-smc?data=20240307&dlugoscPobytu=12&miastoWyjazdu=katowice&iataWyjazdu=KTW&wyzywienie=2-posilki&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01&hotelNaPrzedluzenie=fihalhohi-island-resort",
+            "OfertaBezTerminu": "/esencja-cejlonu-z-wypoczynkiem-na-malediwach/zakwaterowanie-smc?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/esencja-cejlonu-z-wypoczynkiem-na-malediwach/zakwaterowanie-smc",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "2-posilki+KTW+KTW+7059605",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103149_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103151_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103148_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103150_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103152_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103153_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103154_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103155_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103156_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_103157_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_106106_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/2838/zakwaterowanie-smc_2838_106107_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5.02,
+            "IloscOcen": 42,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 12511,
+            "CenaPrzedPromocja": 12511,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": true,
+        "TerminWyjazdu": "2024-03-07T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Katowice",
+                "Iata": "KTW",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania i obiadokolacje",
+                "URL": "2-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "2838_9194",
+        "Wybrana": {
+            "Klucz": "2838_9194:171255:7059595",
+            "ImprezaId": 171255,
+            "HotelWCId": 7059595,
+            "RezerwujParametry": "?kodWycieczki=SMC&przystanekWyjazdowyId=845086&przystanekPowrotnyId=845057&wybraneWyzywienie=2-posilki&hotelId=2838&dataStart=2024-03-08&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=6&hotelParams=1_2838_6",
+            "Cena": 25022,
+            "CenaZaOsobe": 12511,
+            "CenaZaliczka": 3750,
+            "CenaBezPromocji": 26822,
+            "CenaBezPromocjiZaOsobe": 13411,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 12510
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 12510
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 8111
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 8111
+                    }
+                ],
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4399
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4399
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "KTW",
+            "IataPowrotna": "KTW",
+            "HotelPrzedluzonyId": 3537,
+            "HotelPrzedluzonyWCId": 7059605,
+            "PodstawowyHotelWCId2": 7059605,
+            "CzyObowiazkowy": true,
+            "Params": "2-posilki+KTW+KTW+7059605",
+            "KluczOmnibus": "7059595_7059605_1_1_K7_7_I0k_K7_7_I0k_302595_845086_302580_845057_2-posilki_2-posilki_",
+            "PromocjeUrl": [
+                "krolestwo-egzotyki"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "KTW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 337,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 12,
+                "DlugoscPrzedluzenia": 4,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2024-01-25",
+                        "DataWykwaterowaniaBlok1": "2024-02-01",
+                        "DataZakwaterowaniaBlok2": "2024-02-01",
+                        "DataKoniec": "2024-02-05",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": 4,
+                        "Cena": 25524,
+                        "CenaZaOsobe": 12762,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-07",
+                        "DataWykwaterowaniaBlok1": "2024-03-14",
+                        "DataZakwaterowaniaBlok2": "2024-03-14",
+                        "DataKoniec": "2024-03-18",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": 4,
+                        "Cena": 25022,
+                        "CenaZaOsobe": 12511,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            },
+            {
+                "Dlugosc": 13,
+                "DlugoscPrzedluzenia": 5,
+                "CzyAktywna": false,
+                "Terminy": [
+                    {
+                        "Termin": "2024-02-25",
+                        "DataWykwaterowaniaBlok1": "2024-03-03",
+                        "DataZakwaterowaniaBlok2": "2024-03-03",
+                        "DataKoniec": "2024-03-08",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": 5,
+                        "Cena": 27541,
+                        "CenaZaOsobe": 13771,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-17",
+                        "DataWykwaterowaniaBlok1": "2024-03-24",
+                        "DataZakwaterowaniaBlok2": "2024-03-24",
+                        "DataKoniec": "2024-03-29",
+                        "LiczbaNocy": 6,
+                        "LiczbaNocyPrzedluzenia": 5,
+                        "Cena": 26769,
+                        "CenaZaOsobe": 13385,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "2 posi\u0142ki",
+                "Wartosc": "2-posilki",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": [
+            {
+                "HotelId": 3537,
+                "Klucz": "2838_9194:171255:7059605",
+                "HotelWCId": 7059605,
+                "HotelUrl": "fihalhohi-island-resort",
+                "Wyzywienie": "2 posi\u0142ki",
+                "WyzywienieUrl": "2-posilki",
+                "DataStart": "2024-03-14",
+                "DataKoniec": "2024-03-18",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Pok\u00f3j comfort Sky, Pok\u00f3j comfort Beach, Pok\u00f3j premium Beach",
+                "CenaZaOsobe": 12511,
+                "Cena": 25022,
+                "DoplataZaOsobe": 0,
+                "Doplata": 0,
+                "RezerwujParametry": "&liczbaNocy2=4&hotelParams=2_3537_4&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=2-posilki&wybranyHotelNaPrzedluzenie=3537",
+                "Dlugosc": 12,
+                "DlugoscNaPrzedluzeniu": 4,
+                "Ocena": 6,
+                "CzyAktywna": true
+            },
+            {
+                "HotelId": 3524,
+                "Klucz": "2838_9194:171255:7059604",
+                "HotelWCId": 7059604,
+                "HotelUrl": "summer-island-resort",
+                "Wyzywienie": "2 posi\u0142ki",
+                "WyzywienieUrl": "2-posilki",
+                "DataStart": "2024-03-14",
+                "DataKoniec": "2024-03-18",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Pok\u00f3j superior Vista, Bungalow superior",
+                "CenaZaOsobe": 13162,
+                "Cena": 26323,
+                "DoplataZaOsobe": 651,
+                "Doplata": 1301,
+                "RezerwujParametry": "&liczbaNocy2=4&hotelParams=2_3524_4&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=2-posilki&wybranyHotelNaPrzedluzenie=3524",
+                "Dlugosc": 12,
+                "DlugoscNaPrzedluzeniu": 4,
+                "Ocena": 4,
+                "CzyAktywna": false
+            },
+            {
+                "HotelId": 4686,
+                "Klucz": "2838_9194:171255:7059608",
+                "HotelWCId": 7059608,
+                "HotelUrl": "kuredu-resort-and-spa",
+                "Wyzywienie": "3 posi\u0142ki",
+                "WyzywienieUrl": "3-posilki",
+                "DataStart": "2024-03-14",
+                "DataKoniec": "2024-03-18",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Bungalow w ogrodzie, Willa przy pla\u017cy, Willa przy pla\u017cy z jacuzzi, Willa na wodzie Sangu",
+                "CenaZaOsobe": 13511,
+                "Cena": 27021,
+                "DoplataZaOsobe": 1000,
+                "Doplata": 1999,
+                "RezerwujParametry": "&liczbaNocy2=4&hotelParams=2_4686_4&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=3-posilki&wybranyHotelNaPrzedluzenie=4686",
+                "Dlugosc": 12,
+                "DlugoscNaPrzedluzeniu": 4,
+                "Ocena": 5.02,
+                "CzyAktywna": false
+            },
+            {
+                "HotelId": 3494,
+                "Klucz": "2838_9194:171255:7059603",
+                "HotelWCId": 7059603,
+                "HotelUrl": "adaaran-club-rannalhi",
+                "Wyzywienie": "All inclusive",
+                "WyzywienieUrl": "all-inclusive",
+                "DataStart": "2024-03-14",
+                "DataKoniec": "2024-03-18",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Pok\u00f3j standardowy w ogrodzie, *Bungalow na wodzie",
+                "CenaZaOsobe": 13611,
+                "Cena": 27221,
+                "DoplataZaOsobe": 1100,
+                "Doplata": 2199,
+                "RezerwujParametry": "&liczbaNocy2=4&hotelParams=2_3494_4&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=all-inclusive&wybranyHotelNaPrzedluzenie=3494",
+                "Dlugosc": 12,
+                "DlugoscNaPrzedluzeniu": 4,
+                "Ocena": 5.83,
+                "CzyAktywna": false
+            }
+        ],
+        "IloscHoteliNP": 12,
+        "CenaMin": 25022,
+        "CenaMax": 27541,
+        "TerminMin": "2024-01-25",
+        "TerminMax": "2024-03-17",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": [
+            "all-inclusive",
+            "sniadania",
+            "3-posilki",
+            "2-posilki"
+        ],
+        "FiltrDlugosciNP": [
+            4
+        ]
+    }
+}

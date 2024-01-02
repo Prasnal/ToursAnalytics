@@ -1,0 +1,694 @@
+{
+    "Tour": {
+        "Id": "266_9271:169962:7026600",
+        "Cena": 14100,
+        "CenaBezPromocji": 14600,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 14100
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 14100
+            }
+        ],
+        "Params": "3-posilki+WAW+WAW+7026610",
+        "KategoriaWycieczki": "objazd + wypoczynek",
+        "KluczOmnibusaKwalifikowany": "7026600_7026610_1_1_K7_7_I0k_K7_7_I0k_296665_833160_296721_833273_3-posilki_2-posilki_"
+    },
+    "TourDetails": {
+        "BloczekId": "266_9271:169962:7026600",
+        "BazoweInformacje": {
+            "ImprezaID": 169962,
+            "HotelID": 266,
+            "LiczbaDni": 8,
+            "LiczbaNocy": 7,
+            "LiczbaDniPrzedluzenie": 8,
+            "KluczProduktHotel": "266_9271",
+            "KodProduktu": "KTZ",
+            "TypWycieczki": "objazd + wypoczynek",
+            "Lokalizacje": "Kenia i Tanzania",
+            "Panstwa": [
+                "Kenia",
+                "Tanzania"
+            ],
+            "Regiony": [
+                "Park Narodowy Serengeti",
+                "Zanzibar"
+            ],
+            "GwiazdkiHotelu": 3,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Kenia, Tanzania i Zanzibar - safari z wypoczynkiem",
+            "OfertaURL": "/kenia-tanzania-i-zanzibar-safari-z-wypoczynkiem/zakwaterowanie-ktz?data=20240326&dlugoscPobytu=16&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=3-posilki&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01&hotelNaPrzedluzenie=voi-kiwengwa-resort",
+            "OfertaBezTerminu": "/kenia-tanzania-i-zanzibar-safari-z-wypoczynkiem/zakwaterowanie-ktz?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/kenia-tanzania-i-zanzibar-safari-z-wypoczynkiem/zakwaterowanie-ktz",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "3-posilki+WAW+WAW+7026610",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103321_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103320_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103319_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103322_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103323_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103324_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103325_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103326_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103327_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103328_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_103329_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_67138_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/266/zakwaterowanie-ktz_266_107254_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 5.43,
+            "IloscOcen": 27,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 14100,
+            "CenaPrzedPromocja": 14100,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": true,
+        "TerminWyjazdu": "2024-03-26T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            },
+            {
+                "Nazwa": "Katowice",
+                "Iata": "KTW",
+                "Miasto": "",
+                "MiastoURL": "katowice",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "\u015aniadania, obiady i kolacje",
+                "URL": "3-posilki"
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "266_9271",
+        "Wybrana": {
+            "Klucz": "266_9271:169958:7026548",
+            "ImprezaId": 169958,
+            "HotelWCId": 7026548,
+            "RezerwujParametry": "?kodWycieczki=KTZ&przystanekWyjazdowyId=833156&przystanekPowrotnyId=833269&wybraneWyzywienie=3-posilki&hotelId=266&dataStart=2024-03-12&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=7&hotelParams=1_266_7",
+            "Cena": 30468,
+            "CenaZaOsobe": 15234,
+            "CenaZaliczka": 4570,
+            "CenaBezPromocji": 32068,
+            "CenaBezPromocjiZaOsobe": 16034,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 15233
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 15233
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 11550
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 11550
+                    }
+                ],
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 3683
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 3683
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": 4068,
+            "HotelPrzedluzonyWCId": 7026552,
+            "PodstawowyHotelWCId2": 7026558,
+            "CzyObowiazkowy": true,
+            "Params": "3-posilki+WAW+WAW+7026552",
+            "KluczOmnibus": "7026548_7026552_1_1_K7_7_I0k_K7_7_I0k_296663_833156_296719_833269_3-posilki_2-posilki_",
+            "PromocjeUrl": [
+                "krolestwo-egzotyki"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            },
+            {
+                "Nazwa": "Katowice",
+                "Wartosc": "KTW",
+                "Doplata": 150,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": false
+            },
+            {
+                "Nazwa": "Wroc\u0142aw",
+                "Wartosc": "WRO",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": true,
+                "CzyAktywna": false
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 16,
+                "DlugoscPrzedluzenia": 8,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-19",
+                        "DataWykwaterowaniaBlok1": "2023-12-26",
+                        "DataZakwaterowaniaBlok2": "2023-12-26",
+                        "DataKoniec": "2024-01-02",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 43837,
+                        "CenaZaOsobe": 21919,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2023-12-26",
+                        "DataWykwaterowaniaBlok1": "2024-01-02",
+                        "DataZakwaterowaniaBlok2": "2024-01-02",
+                        "DataKoniec": "2024-01-09",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 45438,
+                        "CenaZaOsobe": 22719,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-01-09",
+                        "DataWykwaterowaniaBlok1": "2024-01-16",
+                        "DataZakwaterowaniaBlok2": "2024-01-16",
+                        "DataKoniec": "2024-01-23",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37073,
+                        "CenaZaOsobe": 18537,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-01-23",
+                        "DataWykwaterowaniaBlok1": "2024-01-30",
+                        "DataZakwaterowaniaBlok2": "2024-01-30",
+                        "DataKoniec": "2024-02-06",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39972,
+                        "CenaZaOsobe": 19986,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-01-30",
+                        "DataWykwaterowaniaBlok1": "2024-02-06",
+                        "DataZakwaterowaniaBlok2": "2024-02-06",
+                        "DataKoniec": "2024-02-13",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 38968,
+                        "CenaZaOsobe": 19484,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": true
+                    },
+                    {
+                        "Termin": "2024-02-06",
+                        "DataWykwaterowaniaBlok1": "2024-02-13",
+                        "DataZakwaterowaniaBlok2": "2024-02-13",
+                        "DataKoniec": "2024-02-20",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 38199,
+                        "CenaZaOsobe": 19100,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-13",
+                        "DataWykwaterowaniaBlok1": "2024-02-20",
+                        "DataZakwaterowaniaBlok2": "2024-02-20",
+                        "DataKoniec": "2024-02-27",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37613,
+                        "CenaZaOsobe": 18807,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-20",
+                        "DataWykwaterowaniaBlok1": "2024-02-27",
+                        "DataZakwaterowaniaBlok2": "2024-02-27",
+                        "DataKoniec": "2024-03-05",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37472,
+                        "CenaZaOsobe": 18736,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-02-27",
+                        "DataWykwaterowaniaBlok1": "2024-03-05",
+                        "DataZakwaterowaniaBlok2": "2024-03-05",
+                        "DataKoniec": "2024-03-12",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 36372,
+                        "CenaZaOsobe": 18186,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-05",
+                        "DataWykwaterowaniaBlok1": "2024-03-12",
+                        "DataZakwaterowaniaBlok2": "2024-03-12",
+                        "DataKoniec": "2024-03-19",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 33857,
+                        "CenaZaOsobe": 16929,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-12",
+                        "DataWykwaterowaniaBlok1": "2024-03-19",
+                        "DataZakwaterowaniaBlok2": "2024-03-19",
+                        "DataKoniec": "2024-03-26",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 30468,
+                        "CenaZaOsobe": 15234,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-19",
+                        "DataWykwaterowaniaBlok1": "2024-03-26",
+                        "DataZakwaterowaniaBlok2": "2024-03-26",
+                        "DataKoniec": "2024-04-02",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 30669,
+                        "CenaZaOsobe": 15335,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-03-26",
+                        "DataWykwaterowaniaBlok1": "2024-04-02",
+                        "DataZakwaterowaniaBlok2": "2024-04-02",
+                        "DataKoniec": "2024-04-09",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37116,
+                        "CenaZaOsobe": 18558,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-06-18",
+                        "DataWykwaterowaniaBlok1": "2024-06-25",
+                        "DataZakwaterowaniaBlok2": "2024-06-25",
+                        "DataKoniec": "2024-07-02",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37483,
+                        "CenaZaOsobe": 18742,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-02",
+                        "DataWykwaterowaniaBlok1": "2024-07-09",
+                        "DataZakwaterowaniaBlok2": "2024-07-09",
+                        "DataKoniec": "2024-07-16",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39276,
+                        "CenaZaOsobe": 19638,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-09",
+                        "DataWykwaterowaniaBlok1": "2024-07-16",
+                        "DataZakwaterowaniaBlok2": "2024-07-16",
+                        "DataKoniec": "2024-07-23",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-16",
+                        "DataWykwaterowaniaBlok1": "2024-07-23",
+                        "DataZakwaterowaniaBlok2": "2024-07-23",
+                        "DataKoniec": "2024-07-30",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-23",
+                        "DataWykwaterowaniaBlok1": "2024-07-30",
+                        "DataZakwaterowaniaBlok2": "2024-07-30",
+                        "DataKoniec": "2024-08-06",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-07-30",
+                        "DataWykwaterowaniaBlok1": "2024-08-06",
+                        "DataZakwaterowaniaBlok2": "2024-08-06",
+                        "DataKoniec": "2024-08-13",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-06",
+                        "DataWykwaterowaniaBlok1": "2024-08-13",
+                        "DataZakwaterowaniaBlok2": "2024-08-13",
+                        "DataKoniec": "2024-08-20",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-13",
+                        "DataWykwaterowaniaBlok1": "2024-08-20",
+                        "DataZakwaterowaniaBlok2": "2024-08-20",
+                        "DataKoniec": "2024-08-27",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39676,
+                        "CenaZaOsobe": 19838,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-20",
+                        "DataWykwaterowaniaBlok1": "2024-08-27",
+                        "DataZakwaterowaniaBlok2": "2024-08-27",
+                        "DataKoniec": "2024-09-03",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 39338,
+                        "CenaZaOsobe": 19669,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-08-27",
+                        "DataWykwaterowaniaBlok1": "2024-09-03",
+                        "DataZakwaterowaniaBlok2": "2024-09-03",
+                        "DataKoniec": "2024-09-10",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 38190,
+                        "CenaZaOsobe": 19095,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-03",
+                        "DataWykwaterowaniaBlok1": "2024-09-10",
+                        "DataZakwaterowaniaBlok2": "2024-09-10",
+                        "DataKoniec": "2024-09-17",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37790,
+                        "CenaZaOsobe": 18895,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-10",
+                        "DataWykwaterowaniaBlok1": "2024-09-17",
+                        "DataZakwaterowaniaBlok2": "2024-09-17",
+                        "DataKoniec": "2024-09-24",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37748,
+                        "CenaZaOsobe": 18874,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-17",
+                        "DataWykwaterowaniaBlok1": "2024-09-24",
+                        "DataZakwaterowaniaBlok2": "2024-09-24",
+                        "DataKoniec": "2024-10-01",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37510,
+                        "CenaZaOsobe": 18755,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-09-24",
+                        "DataWykwaterowaniaBlok1": "2024-10-01",
+                        "DataZakwaterowaniaBlok2": "2024-10-01",
+                        "DataKoniec": "2024-10-08",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37468,
+                        "CenaZaOsobe": 18734,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-01",
+                        "DataWykwaterowaniaBlok1": "2024-10-08",
+                        "DataZakwaterowaniaBlok2": "2024-10-08",
+                        "DataKoniec": "2024-10-15",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37091,
+                        "CenaZaOsobe": 18546,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-08",
+                        "DataWykwaterowaniaBlok1": "2024-10-15",
+                        "DataZakwaterowaniaBlok2": "2024-10-15",
+                        "DataKoniec": "2024-10-22",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 37054,
+                        "CenaZaOsobe": 18527,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    },
+                    {
+                        "Termin": "2024-10-15",
+                        "DataWykwaterowaniaBlok1": "2024-10-22",
+                        "DataZakwaterowaniaBlok2": "2024-10-22",
+                        "DataKoniec": "2024-10-29",
+                        "LiczbaNocy": 7,
+                        "LiczbaNocyPrzedluzenia": 7,
+                        "Cena": 36854,
+                        "CenaZaOsobe": 18427,
+                        "CzyAktywna": false,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "3 posi\u0142ki",
+                "Wartosc": "3-posilki",
+                "Doplata": 0,
+                "CzyAktywna": true
+            }
+        ],
+        "HoteleNaPrzedluzeniu": [
+            {
+                "HotelId": 4068,
+                "Klucz": "266_9271:169958:7026552",
+                "HotelWCId": 7026552,
+                "HotelUrl": "breezes-beach-club-zanzibar",
+                "Wyzywienie": "2 posi\u0142ki",
+                "WyzywienieUrl": "2-posilki",
+                "DataStart": "2024-03-19",
+                "DataKoniec": "2024-03-27",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Pok\u00f3j deluxe",
+                "CenaZaOsobe": 15234,
+                "Cena": 30468,
+                "DoplataZaOsobe": 629,
+                "Doplata": 1259,
+                "RezerwujParametry": "&liczbaNocy2=7&hotelParams=2_4068_7&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=2-posilki&wybranyHotelNaPrzedluzenie=4068",
+                "Dlugosc": 16,
+                "DlugoscNaPrzedluzeniu": 8,
+                "Ocena": 5,
+                "CzyAktywna": true
+            },
+            {
+                "HotelId": 5915,
+                "Klucz": "266_9271:169958:7026558",
+                "HotelWCId": 7026558,
+                "HotelUrl": "voi-kiwengwa-resort",
+                "Wyzywienie": "2 posi\u0142ki",
+                "WyzywienieUrl": "2-posilki",
+                "DataStart": "2024-03-19",
+                "DataKoniec": "2024-03-27",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Standard room, comfort room",
+                "CenaZaOsobe": 14605,
+                "Cena": 29209,
+                "DoplataZaOsobe": 0,
+                "Doplata": 0,
+                "RezerwujParametry": "&liczbaNocy2=7&hotelParams=2_5915_7&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=2-posilki&wybranyHotelNaPrzedluzenie=5915",
+                "Dlugosc": 16,
+                "DlugoscNaPrzedluzeniu": 8,
+                "Ocena": 5.82,
+                "CzyAktywna": false
+            },
+            {
+                "HotelId": 5784,
+                "Klucz": "266_9271:169958:7026554",
+                "HotelWCId": 7026554,
+                "HotelUrl": "my-blue-hotel",
+                "Wyzywienie": "All inclusive",
+                "WyzywienieUrl": "all-inclusive",
+                "DataStart": "2024-03-19",
+                "DataKoniec": "2024-03-27",
+                "LiczbaPokoi": 1,
+                "Pokoje": "Pok\u00f3j deluxe, Pok\u00f3j luxury villas , Pok\u00f3j standardowy 2-s., *Pok\u00f3j mini suite",
+                "CenaZaOsobe": 15488,
+                "Cena": 30975,
+                "DoplataZaOsobe": 883,
+                "Doplata": 1766,
+                "RezerwujParametry": "&liczbaNocy2=7&hotelParams=2_5784_7&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=all-inclusive&wybranyHotelNaPrzedluzenie=5784",
+                "Dlugosc": 16,
+                "DlugoscNaPrzedluzeniu": 8,
+                "Ocena": 5.83,
+                "CzyAktywna": false
+            },
+            {
+                "HotelId": 5785,
+                "Klucz": "266_9271:169958:7026555",
+                "HotelWCId": 7026555,
+                "HotelUrl": "next-paradise-boutique-resort",
+                "Wyzywienie": "2 posi\u0142ki",
+                "WyzywienieUrl": "2-posilki",
+                "DataStart": "2024-03-19",
+                "DataKoniec": "2024-03-27",
+                "LiczbaPokoi": 1,
+                "Pokoje": "*Pok\u00f3j standardowy, *Pok\u00f3j typu oceanfront , *Pok\u00f3j typu panorama suite, *Pok\u00f3j typu ocean front deluxe, *Pok\u00f3j typu beachfront bungalow, *Pok\u00f3j typu oceanview bungalow, *Pok\u00f3j typu honeymoon suite",
+                "CenaZaOsobe": 16081,
+                "Cena": 32161,
+                "DoplataZaOsobe": 1476,
+                "Doplata": 2952,
+                "RezerwujParametry": "&liczbaNocy2=7&hotelParams=2_5785_7&czyWybranePrzedluzenie=true&wybraneWyzywienieNaPrzedluzenie=2-posilki&wybranyHotelNaPrzedluzenie=5785",
+                "Dlugosc": 16,
+                "DlugoscNaPrzedluzeniu": 8,
+                "Ocena": 5.43,
+                "CzyAktywna": false
+            }
+        ],
+        "IloscHoteliNP": 9,
+        "CenaMin": 30468,
+        "CenaMax": 45438,
+        "TerminMin": "2023-12-19",
+        "TerminMax": "2024-10-15",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": [
+            "2-posilki",
+            "3-posilki",
+            "all-inclusive"
+        ],
+        "FiltrDlugosciNP": [
+            8
+        ]
+    }
+}

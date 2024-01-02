@@ -1,0 +1,207 @@
+{
+    "Tour": {
+        "Id": "4294_9705:179607:7653725",
+        "Cena": 4519,
+        "CenaBezPromocji": 4819,
+        "CenyZaOsoby": [
+            {
+                "Pokoj": 1,
+                "Cena": 4519
+            },
+            {
+                "Pokoj": 1,
+                "Cena": 4519
+            }
+        ],
+        "Params": "+WAW+WAW+-",
+        "KategoriaWycieczki": "objazd",
+        "KluczOmnibusaKwalifikowany": "7653725_0_1_0_K7_7_I0k_Kk_305928_852209_305929_852212__"
+    },
+    "TourDetails": {
+        "BloczekId": "4294_9705:179607:7653725",
+        "BazoweInformacje": {
+            "ImprezaID": 179607,
+            "HotelID": 4294,
+            "LiczbaDni": 6,
+            "LiczbaNocy": 5,
+            "LiczbaDniPrzedluzenie": 0,
+            "KluczProduktHotel": "4294_9705",
+            "KodProduktu": "SMH",
+            "TypWycieczki": "objazd",
+            "Lokalizacje": "Macedonia: Ochryd",
+            "Panstwa": [
+                "Macedonia"
+            ],
+            "Regiony": [
+                "Ochryd"
+            ],
+            "GwiazdkiHotelu": 5,
+            "NazwaHoteluWWW": "",
+            "OfertaNazwa": "Sylwester w Macedonii - samolotem",
+            "OfertaURL": "/sylwester-w-macedonii-samolotem/zakwaterowanie-smh?data=20231230&dlugoscPobytu=6&miastoWyjazdu=warszawa&iataWyjazdu=WAW&wyzywienie=&liczbaPokoi=1&czyCenaZaWszystkich=0&wiek=1993-01-01&wiek=1993-01-01",
+            "OfertaBezTerminu": "/sylwester-w-macedonii-samolotem/zakwaterowanie-smh?data=%s&dlugoscPobytu=%d&miastoWyjazdu=%s&iataWyjazdu=%s&wyzywienie=%s&liczbaPokoi=%d&czyCenaZaWszystkich=%d",
+            "OfertaURLDlaGoogle": "/sylwester-w-macedonii-samolotem/zakwaterowanie-smh",
+            "DatyUrodzenia": [
+                "1993-01-01",
+                "1993-01-01"
+            ],
+            "LiczbaPokoi": 1,
+            "Params": "+WAW+WAW+-",
+            "HappyHoursKolejnosc": 1000
+        },
+        "Zdjecia": [
+            "https://zdjecia-cdn.r.pl/hotel/4294/zakwaterowanie-smh_4294_89110_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4294/zakwaterowanie-smh_4294_89111_3x2.jpg",
+            "https://zdjecia-cdn.r.pl/hotel/4294/zakwaterowanie-smh_4294_89112_3x2.jpg"
+        ],
+        "Czy3x2": true,
+        "Ocena": {
+            "Ocena": 4.94,
+            "IloscOcen": 9,
+            "CzyPokazywac": true
+        },
+        "Cena": {
+            "CenaAktualna": 4519,
+            "CenaPrzedPromocja": 4519,
+            "CenyZaPokoj": [
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                },
+                {
+                    "Pokoj": 0,
+                    "Cena": 0
+                }
+            ],
+            "CenyZaWszystkieOsoby": null,
+            "CenyUslug": null,
+            "WolneMiejsca": 0
+        },
+        "CzyCenaZaOsobe": true,
+        "CzyPrzedluzony": false,
+        "TerminWyjazdu": "2023-12-30T00:00:00Z",
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Iata": "WAW",
+                "Miasto": "",
+                "MiastoURL": "warszawa",
+                "CzySamolot": true,
+                "CzyDreamliner": false
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "Wg programu imprezy",
+                "URL": ""
+            }
+        ],
+        "Fiszki": [],
+        "Film": {},
+        "CzyLight": false
+    },
+    "Prices": {
+        "CzyIstniejeWycieczka": true,
+        "KluczProduktoHotel": "4294_9705",
+        "Wybrana": {
+            "Klucz": "4294_9705:179607:7653725",
+            "ImprezaId": 179607,
+            "HotelWCId": 7653725,
+            "RezerwujParametry": "?kodWycieczki=SMH&przystanekWyjazdowyId=852209&przystanekPowrotnyId=852212&wybraneWyzywienie=&hotelId=4294&dataStart=2023-12-30&liczbaDoroslych=2&liczbaDzieci=0&liczbaNocy1=5&hotelParams=1_4294_5",
+            "Cena": 9039,
+            "CenaZaOsobe": 4520,
+            "CenaZaliczka": 1350,
+            "CenaBezPromocji": 9639,
+            "CenaBezPromocjiZaOsobe": 4820,
+            "Zaliczka": 15,
+            "CenyZaOsoby": [
+                {
+                    "Pokoj": 1,
+                    "Cena": 4519
+                },
+                {
+                    "Pokoj": 1,
+                    "Cena": 4519
+                }
+            ],
+            "CenyZaWszystkieOsoby": [
+                [
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4519
+                    },
+                    {
+                        "Pokoj": 1,
+                        "Cena": 4519
+                    }
+                ]
+            ],
+            "Pokoje": "",
+            "LiczbaPokoi": 1,
+            "IataWyjazdowa": "WAW",
+            "IataPowrotna": "WAW",
+            "HotelPrzedluzonyId": null,
+            "HotelPrzedluzonyWCId": null,
+            "PodstawowyHotelWCId2": null,
+            "CzyObowiazkowy": false,
+            "Params": "+WAW+WAW+-",
+            "KluczOmnibus": "7653725_0_1_0_K7_7_I0k_Kk_305928_852209_305929_852212__",
+            "PromocjeUrl": [
+                "narty-i-sylwester-przedsprzedaz-23-24"
+            ]
+        },
+        "DatyUrodzenia": [
+            "1993-01-01",
+            "1993-01-01"
+        ],
+        "LiczbaOsobNaTrasie": 2,
+        "LiczbaPokoi": 0,
+        "Przystanki": [
+            {
+                "Nazwa": "Warszawa Chopin",
+                "Wartosc": "WAW",
+                "Doplata": 0,
+                "TypTransportu": "AIR",
+                "CzyInnyTermin": false,
+                "CzyAktywna": true
+            }
+        ],
+        "PrzystankiPowrotne": [],
+        "Terminy": [
+            {
+                "Dlugosc": 6,
+                "DlugoscPrzedluzenia": 0,
+                "CzyAktywna": true,
+                "Terminy": [
+                    {
+                        "Termin": "2023-12-30",
+                        "DataKoniec": "2024-01-04",
+                        "LiczbaNocy": 5,
+                        "LiczbaNocyPrzedluzenia": null,
+                        "Cena": 9039,
+                        "CenaZaOsobe": 4520,
+                        "CzyAktywna": true,
+                        "CzyPotwierdzony": false
+                    }
+                ]
+            }
+        ],
+        "Wyzywienia": [
+            {
+                "Nazwa": "",
+                "Wartosc": "",
+                "Doplata": 0,
+                "CzyAktywna": false
+            }
+        ],
+        "HoteleNaPrzedluzeniu": null,
+        "IloscHoteliNP": 0,
+        "CenaMin": 9039,
+        "CenaMax": 9039,
+        "TerminMin": "2023-12-30",
+        "TerminMax": "2023-12-30",
+        "DostepneKombinacjePokoi": null,
+        "FiltrWyzywieniaNP": null,
+        "FiltrDlugosciNP": null
+    }
+}
