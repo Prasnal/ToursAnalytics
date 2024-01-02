@@ -9,7 +9,7 @@ ENV PYTHONFAULTHANDLER=1 \
   POETRY_VERSION=1.1.7
 
 
-RUN apk add --update \
+RUN apk add --no-cache \
   build-base \
   gcc \
   python3-dev \
