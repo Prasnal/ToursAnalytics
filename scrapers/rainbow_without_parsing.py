@@ -29,7 +29,7 @@ def save_json_to_file(data, file_name: str) -> None:
     json_object = json.dumps(data, indent=4)
     file_name_with_date = f'{file_name}-{today}.json'
 
-    path = DIR + f'results/{today}/' #TODO: in path should be also name of the scraper /Rainbow/
+    path = f'results/{today}/' #TODO: in path should be also name of the scraper /Rainbow/
     if not os.path.exists(path):
         os.makedirs(path, exist_ok=True)
 
