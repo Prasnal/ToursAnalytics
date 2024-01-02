@@ -4,12 +4,12 @@ import datetime
 import os
 import logging
 import sys
-sys.path.insert(0,'/home/krasnal/Projects/ToursAnalytics') #TODO: change this
+sys.path.insert(0,'/home/krasnal/Projects/my_projects/ToursAnalytics/scraper') #TODO: change this
 from tours.tour import Tour, TermsDetails
 
 # logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
 logging.basicConfig(level=logging.ERROR)
-DIR = '/home/krasnal/Projects/ToursAnalytics/'  # TODO: move to settings
+DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move to settings
 
 # TODO: download "odpoczynek" as well
 # TODO: create settings with DIR and logging
@@ -237,4 +237,4 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
         save_json_to_file(tours, f'all-results')
 
 
-main_rainbow(save_to_json=True, save_to_db=False)
+#main_rainbow(save_to_json=True, save_to_db=False)

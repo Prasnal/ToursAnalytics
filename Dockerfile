@@ -23,7 +23,7 @@ RUN apk add --update \
   postgresql-dev
 
 
-#COPY requirements.txt /tmp/requirements.txt
+COPY requirements.txt /tmp/requirements.txt
 #RUN pip install --user -r /tmp/requirements.txt
 RUN pip install requests
 RUN pip install beautifulsoup4
