@@ -1,6 +1,8 @@
 from typing import List
 from dataclasses import dataclass
 from typing import Optional
+
+#TODO: add przystanki
 class TermsDetails:
     def __init__(self, term_start, term_end, term_price, nights, approved, length):
         self.term_start = term_start
@@ -12,6 +14,11 @@ class TermsDetails:
 
     def date_validator(self):
         pass
+
+    def __repr__(self) -> str:
+        return (f"TermsDetails(term_start={self.term_start!r}, term_end={self.term_end!r}, term_price={self.term_price!r},"
+                f"nights={self.nights!r}, approved={self.approved!r}, length={self.length!r})")
+
 
 @dataclass
 class Tour:

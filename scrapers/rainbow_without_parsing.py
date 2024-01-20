@@ -6,6 +6,7 @@ import logging
 import sys
 sys.path.insert(0,'/home/krasnal/Projects/my_projects/ToursAnalytics/scraper') #TODO: change this
 from tours.tour import Tour, TermsDetails
+from models.test_db_adding import add_data_to_database
 
 # logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
 logging.basicConfig(level=logging.ERROR)
@@ -39,19 +40,27 @@ def save_json_to_file(data, file_name: str) -> None:
 
 class RainbowParser:
     def __init__(self, tour_json):
+        #print("JSON", tour_json)
         self.tour_json = tour_json
         self.tour_agency = 'Rainbow'
         self.tour_agency_url = "https://r.pl/"
         self.tour_name = tour_json["TourDetails"]["BazoweInformacje"]["OfertaNazwa"]
         self.countries = tour_json["TourDetails"]["BazoweInformacje"]["Panstwa"]
         self.tour_type = tour_json["TourDetails"]["BazoweInformacje"]["TypWycieczki"]
-        self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURL"]
+        # self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURL"]
+        self.tour_url= tour_json["TourDetails"]["BazoweInformacje"]["OfertaURLDlaGoogle"]
+
 
         self.grade=tour_json["TourDetails"]["Ocena"]['Ocena']
         self.photos=tour_json["TourDetails"]["Zdjecia"]
 
-        self.tour_id = 0
-        self.klucz_omnibus= ""
+        self.full_tour_id = tour_json['Tour']['Id']
+        self.tour_id = tour_json['Tour']['Id'].split(':')[0]
+        try:
+            self.klucz_omnibus= tour_json['Tour']['KluczOmnibusaKwalifikowany']
+        except Exception:
+            self.klucz_omnibus = None
+
         self.start_locations = []
         # food_plans = tour_json["TourDetails"]["Wyzywienia"]
         # TODO: last minute?
@@ -211,7 +220,7 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
 
-    for tour in tours:
+    for tour in tours[:7]:
         logging.info(tour)
         try:
             tour_details = scraper.get_tour_details(tour)
@@ -231,7 +240,8 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
         pprint.pprint(tour_obj)
 
         if save_to_db:
-            pass
+            scraped_date = datetime.datetime.today().strftime('%d-%m-%Y')
+            add_data_to_database(tour_obj, scraped_date)
 
     if save_to_json:
         save_json_to_file(tours, f'all-results')

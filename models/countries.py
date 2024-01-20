@@ -1,17 +1,18 @@
-from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
-from connection import Base
-from sqlalchemy import String, Column, Table, Integer, Sequence
+from models.connection import Base
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped
+from sqlalchemy.orm import mapped_column
+from typing_extensions import Annotated
 
+intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
 class Country(Base):
-   __tablename__ = 'countries'
-   id = Column(Integer,Sequence('user_seq'), primary_key=True)
-   country_name = Column(String(50))
-   country_code = Column(String(3), unique=True, nullable=False)
+    __tablename__ = 'countries'
 
-   def __init__(self, country_name, country_code):
-      self.country_name = country_name
-      self.country_code = country_code
+    id: Mapped[intpk] = mapped_column(init=False, primary_key=True)
+    country_name: Mapped[str] = mapped_column(String(30))
+    country_code: Mapped[str] = mapped_column(unique=True, nullable=False)
+
+    def __repr__(self) -> str:
+        return f"Country(id={self.id!r}, country_name={self.country_name!r}, country_code={self.country_code!r})"

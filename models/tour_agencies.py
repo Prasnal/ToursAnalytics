@@ -1,16 +1,24 @@
+from sqlalchemy_utils import URLType
+from models.connection import Base
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped
+from sqlalchemy.orm import mapped_column
+from typing_extensions import Annotated
+from sqlalchemy.orm import relationship
 from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
-from connection import Base
-from sqlalchemy import String, Column, Table, Integer, Sequence
+from models.tours import Tour
+
+intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
 class TourAgency(Base):
-   __tablename__ = 'tour_agencies'
-   id = Column(Integer,Sequence('user_seq'), primary_key=True)
-   name = Column(String(50), unique=True)
-   url = Column(String(250))
+    __tablename__ = 'tour_agency'
+    id: Mapped[intpk] = mapped_column(init=False, primary_key=True)
+    agency_name: Mapped[str] = mapped_column(String(30), unique=True, nullable=False)
+    agency_url: Mapped[str] = mapped_column(URLType, unique=True, nullable=False)
 
-   def __init__(self, name, url):
-      self.name = name
-      self.url = url
+    tours: Mapped[List["Tour"]] = relationship(back_populates="tour_agency")
+
+
+    def __repr__(self) -> str:
+        return f"Agency(id={self.id!r}, agency_name={self.agency_name!r}, agency_url={self.agency_url!r})"

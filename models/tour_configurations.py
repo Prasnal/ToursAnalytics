@@ -1,29 +1,31 @@
-from typing import List
-from typing import Optional
-from sqlalchemy import ForeignKey
-from connection import Base
-from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date
 
+from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float
+from models.connection import Base
+from sqlalchemy import ForeignKey
+from sqlalchemy import String
+from sqlalchemy.orm import Mapped
+from sqlalchemy.orm import mapped_column
+from sqlalchemy.orm import relationship
+from typing_extensions import Annotated
+import datetime
+from typing import List
+
+intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
 class TourConfig(Base):
-   __tablename__ = 'tour_configuration'
-   id = Column(Integer,Sequence('user_seq'), primary_key=True)
-   start_date = Column(Date())
-   end_date = Column(Date())
-   start_location = Column(String(50))
-   tour_length = Column(Integer)
-   scraper_active = Column(Boolean, default=True)
+    __tablename__ = 'tour_config'
+    id: Mapped[intpk] = mapped_column(init=False)
+    tour_length: Mapped[int] = mapped_column(Integer())
+    start_tour_date: Mapped[datetime.datetime] = mapped_column(Date())
+    end_tour_date: Mapped[datetime.datetime] = mapped_column(Date())
 
+    tour_id: Mapped[int] = mapped_column(ForeignKey("tour.id"))
+    tour: Mapped["Tour"] = relationship(back_populates="tour_config")
 
-   #TourID [foregin key]
-   #TourPrices [foregin key]
+    start_location: Mapped[str] = mapped_column(String(100), nullable=True)
+    location_additional_cost: Mapped[int] = mapped_column(Float(), nullable=True)
 
+    tour_prices: Mapped[List["TourPrice"]] = relationship(back_populates="tour_config")
 
-   def __init__(self, start_date, end_date, start_location, tour_length, scraper_active):
-       self.start_date = start_date
-       self.end_date = end_date
-       self.start_location = start_location
-       self.tour_lenght = tour_length
-       self.scraper_active = scraper_active #TODO: ???
-
+    # scraper_active = Column(Boolean, default=True)
