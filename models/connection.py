@@ -6,6 +6,7 @@ from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import MappedAsDataclass
 from sqlalchemy.exc import IntegrityError
 from psycopg2.errors import UniqueViolation
+from sqlalchemy import text
 
 db_user = "tours_user"
 db_pass = "Tours123"
@@ -24,7 +25,9 @@ Session = sessionmaker(engine)
 if not database_exists(engine.url):
     create_database(engine.url)
 else:
-    engine.connect()
+    conn = engine.connect()
+
+
 
 
 

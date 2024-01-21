@@ -25,6 +25,10 @@ class TourPrice(Base):
     scraped_date: Mapped[datetime.datetime] = mapped_column(Date(), nullable=False)
     tour_approved: Mapped[Boolean] = mapped_column(Boolean(), nullable=False)
     tour_price: Mapped[Float] = mapped_column(Float(), nullable=False)
+    tour_price_pp: Mapped[Float] = mapped_column(Float(), nullable=False)
 
     tour_config_id: Mapped[int] = mapped_column(ForeignKey("tour_config.id"))
     tour_config: Mapped["TourConfig"] = relationship(back_populates="tour_prices")
+
+    def __repr__(self) -> str:
+        return f"Prices(id={self.id!r}, scraped_date={self.scraped_date!r}, tour_approved={self.tour_approved!r}, tour_price={self.tour_price!r}, tour_config={self.tour_config!r})"

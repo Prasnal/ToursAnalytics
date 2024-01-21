@@ -2,25 +2,19 @@ import requests
 import json
 import datetime
 import os
-import logging
 import sys
 sys.path.insert(0,'/home/krasnal/Projects/my_projects/ToursAnalytics/scraper') #TODO: change this
 from tours.tour import Tour, TermsDetails
 from models.test_db_adding import add_data_to_database
+import logging
 
-# logging.basicConfig(filename='example.log',level=logging.DEBUG) #TODO: move to settings
-logging.basicConfig(level=logging.ERROR)
 DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move to settings
 
 # TODO: download "odpoczynek" as well
 # TODO: create settings with DIR and logging
 # TODO: create class RainbowToursScraper
-
 # TODO: add exceptions and validations
-
 # TODO: add tests
-# TODO: cron to python
-# TODO: create function to read data from object (and later files) to save data in db
 
 # trip_type = 'objazd'
 
@@ -83,7 +77,7 @@ class RainbowParser:
                 active = term["CzyAktywna"]
                 approved = term["CzyPotwierdzony"]
 
-                terms_details_obj = TermsDetails(start_date, end_date, price, nights, approved, term_length) #TODO: exceptions
+                terms_details_obj = TermsDetails(start_date, end_date, price, per_person_price, nights, approved, term_length) #TODO: exceptions
                 terms_details_list.append(terms_details_obj) #TODO: exceptions
 
         return terms_details_list
@@ -220,7 +214,7 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
 
-    for tour in tours[:7]:
+    for tour in tours:
         logging.info(tour)
         try:
             tour_details = scraper.get_tour_details(tour)
@@ -237,10 +231,11 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
             save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
 
         tour_obj = RainbowParser(merged_tour_details).create_tour()
-        pprint.pprint(tour_obj)
+        #pprint.pprint(tour_obj)
 
         if save_to_db:
-            scraped_date = datetime.datetime.today().strftime('%d-%m-%Y')
+            scraped_date = datetime.datetime.today()
+            #print('SCRAPED DATE:', scraped_date)
             add_data_to_database(tour_obj, scraped_date)
 
     if save_to_json:

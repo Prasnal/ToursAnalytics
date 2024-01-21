@@ -17,7 +17,7 @@ class TourAgency(Base):
     agency_name: Mapped[str] = mapped_column(String(30), unique=True, nullable=False)
     agency_url: Mapped[str] = mapped_column(URLType, unique=True, nullable=False)
 
-    tours: Mapped[List["Tour"]] = relationship(back_populates="tour_agency")
+    tours: Mapped[List["Tour"]] = relationship(back_populates="tour_agency", cascade='all, delete-orphan')
 
 
     def __repr__(self) -> str:

@@ -4,10 +4,11 @@ from typing import Optional
 
 #TODO: add przystanki
 class TermsDetails:
-    def __init__(self, term_start, term_end, term_price, nights, approved, length):
+    def __init__(self, term_start, term_end, term_price, term_price_pp, nights, approved, length):
         self.term_start = term_start
         self.term_end = term_end
         self.term_price = term_price
+        self.term_price_pp = term_price_pp
         self.nights = nights
         self.approved = approved
         self.length = length

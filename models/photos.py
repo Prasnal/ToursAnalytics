@@ -10,12 +10,13 @@ from sqlalchemy_utils import URLType
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
+
 class Photos(Base):
     __tablename__ = 'photos'
 
     id: Mapped[intpk] = mapped_column(init=False, primary_key=True)
     photo_url: Mapped[str] = mapped_column(URLType, unique=True, nullable=False)
-
+    #TODO: photo_url maybe should not be unique, but it works to detect issues for now
     tour_id: Mapped[int] = mapped_column(ForeignKey("tour.id"))
     tour: Mapped["Tour"] = relationship(back_populates="tour_photos")
 

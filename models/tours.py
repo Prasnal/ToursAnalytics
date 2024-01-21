@@ -6,12 +6,19 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
+#from models.countries import Country
+from sqlalchemy import Column, Table
+from typing import Optional
 
 # FK: tour agency, countries, tour_type,
 # tour_type, tour_name, tour_url, klucz_omnibus, tour_id, grade, photos
 # TODO: , cascade="all, delete-orphan"
 
-
+association_table = Table('tours_countries_association',
+    Base.metadata,
+    Column("tour_id", ForeignKey("tour.id"), primary_key=True),
+    Column("country_id", ForeignKey("country.id"), primary_key=True),
+)
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
@@ -19,22 +26,27 @@ intpk = Annotated[int, mapped_column(primary_key=True)]
 class Tour(Base):
     __tablename__ = 'tour'
 
-    id: Mapped[intpk] = mapped_column(init=False)
-    original_tour_id: Mapped[str] = mapped_column(unique=True)
+    id: Mapped[intpk] = mapped_column(init=False) # TODO: unique
+    original_tour_id: Mapped[str] = mapped_column(unique=False, nullable=True) #
     omnibus_key: Mapped[str] = mapped_column(nullable=True)
+    #TODO: active, if tour is still in the website with this url, name and original tour id etc.
 
     tour_name: Mapped[str] = mapped_column(String(100), nullable=False)
     tour_url: Mapped[str] = mapped_column(String(1000))
 
-    tour_photos: Mapped[List["Photos"]] = relationship(back_populates="tour")
+    tour_photos: Mapped[List["Photos"]] = relationship(back_populates="tour", cascade='all, delete-orphan')
 
     tour_type_id: Mapped[int] = mapped_column(ForeignKey("tour_type.id"))
-    tour_type: Mapped["TourType"] = relationship(back_populates="tours")
+    tour_type: Mapped["TourType"] = relationship(back_populates="tours",)
 
     tour_agency_id: Mapped[int] = mapped_column(ForeignKey("tour_agency.id"))
     tour_agency: Mapped["TourAgency"] = relationship(back_populates="tours")
 
-    tour_config: Mapped[List["TourConfig"]] = relationship(back_populates="tour")
+    tour_config: Mapped[List["TourConfig"]] = relationship(back_populates="tour", cascade='all, delete-orphan')
+
+    countries: Mapped[List["Country"]] = relationship(
+        secondary=association_table, back_populates="tours"
+    )
 
 
     def __repr__(self) -> str:
