@@ -210,7 +210,7 @@ class RainbowScraper:
         return response.json()
 
 import pprint
-def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
+def main_rainbow(save_to_json: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
 
@@ -231,15 +231,9 @@ def main_rainbow(save_to_json: bool, save_to_db: bool) -> None:
             save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
 
         tour_obj = RainbowParser(merged_tour_details).create_tour()
-        #pprint.pprint(tour_obj)
 
-        if save_to_db:
-            scraped_date = datetime.datetime.today()
-            #print('SCRAPED DATE:', scraped_date)
-            add_data_to_database(tour_obj, scraped_date)
 
     if save_to_json:
         save_json_to_file(tours, f'all-results')
 
 
-#main_rainbow(save_to_json=True, save_to_db=False)

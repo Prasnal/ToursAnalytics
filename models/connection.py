@@ -7,11 +7,15 @@ from sqlalchemy.orm import MappedAsDataclass
 from sqlalchemy.exc import IntegrityError
 from psycopg2.errors import UniqueViolation
 from sqlalchemy import text
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
-db_user = "tours_user"
-db_pass = "Tours123"
-db_addr = "localhost:5432"
-db_name = "testdb"
+
+db_user = os.environ['RAW_DATA_POSTGRESQL_USER']
+db_pass = os.environ['RAW_DATA_POSTGRESQL_PASS']
+db_addr = os.environ['RAW_DATA_POSTGRESQL_ADDR']
+db_name = os.environ['RAW_DATA_POSTGRESQL_NAME']
 url = f"postgresql://{db_user}:{db_pass}@{db_addr}/{db_name}"
 
 class Base(MappedAsDataclass, DeclarativeBase):

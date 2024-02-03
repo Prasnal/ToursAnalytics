@@ -139,13 +139,28 @@ def add_countries(obj, session):
     countries = obj.countries
     countries_objs = list()
     for country in countries:
-        countries_objs.append(get_or_create(session, Country, defaults={'tours': []}, country_name=country, country_code=country)[0])
+        countries_objs.append(get_or_create(
+            session,
+            Country,
+            defaults={
+                'tours': []
+            },
+            country_name=country,
+            country_code=country
+        )[0])
     return countries_objs
 
 
 def add_tour_agency(obj, session):
     agency_name = obj.tour_agency
     url = obj.tour_agency_url
-    tour_agency_obj = get_or_create(session, TourAgency, defaults={"tours": []}, agency_name=agency_name,
-                                    agency_url=url)
+    tour_agency_obj = get_or_create(
+        session,
+        TourAgency,
+        defaults={
+            "tours": []
+        },
+        agency_name=agency_name,
+        agency_url=url
+    )
     return tour_agency_obj
