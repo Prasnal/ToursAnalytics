@@ -24,9 +24,7 @@ RUN apk add --no-cache \
 
 
 COPY requirements.txt /tmp/requirements.txt
-#RUN pip install --user -r /tmp/requirements.txt
-RUN pip install requests
-RUN pip install beautifulsoup4
+RUN pip install --user -r /tmp/requirements.txt
 COPY ./ /opt/scraper
 WORKDIR /opt/scraper
 
