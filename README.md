@@ -21,6 +21,7 @@ or
 `alembic revision --autogenerate -m "<what happened>"`
 - Run migrations:
 `alembic upgrade <revision>`
+  (or `alembic upgrade head`)
 - Check migrations:
 `alembic check`
 
