@@ -10,7 +10,7 @@ from models.test_db_adding import add_data_to_database
 import traceback
 
 #TODO: move rootdir as env var
-rootdir = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper/results/'
+rootdir = '../scraper/results/'
 
 
 def generate_dates_between(start_date: str, end_date: str) -> list[str]:
