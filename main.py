@@ -52,5 +52,5 @@ if __name__ == "__main__":
         add_to_db_scraped_files(args.start_date, end_date)
     else:
         today = datetime.today().strftime('%d-%m-%Y')
-        #tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
+        tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
         add_to_db_scraped_files(today, today) #TODO: modify to one argument
