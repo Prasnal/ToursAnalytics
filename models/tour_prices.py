@@ -6,7 +6,7 @@
 #grade
 
 
-from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float
+from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float, Time
 from models.connection import Base
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
@@ -23,6 +23,7 @@ class TourPrice(Base):
     __tablename__ = 'tour_price'
     id: Mapped[intpk] = mapped_column(init=False)
     scraped_date: Mapped[datetime.datetime] = mapped_column(Date(), nullable=False)
+    scraped_time: Mapped[datetime.datetime] = mapped_column(Time(), nullable=True)
     tour_approved: Mapped[Boolean] = mapped_column(Boolean(), nullable=False)
     tour_price: Mapped[Float] = mapped_column(Float(), nullable=False)
     tour_price_pp: Mapped[Float] = mapped_column(Float(), nullable=False)

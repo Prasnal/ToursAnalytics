@@ -15,7 +15,7 @@ import logging
 
 
 
-def add_data_to_database(obj, scraped_date):
+def add_data_to_database(obj, timestamp):
     with Session() as session:
         agency_obj = add_tour_agency(obj, session)
         countries_objs = add_countries(obj, session)
@@ -26,9 +26,9 @@ def add_data_to_database(obj, scraped_date):
         details = obj.terms_and_prices
         for detail in details:
             config_obj = add_tour_config(detail, session, tour_obj)
-            add_tour_price(detail, session, config_obj, scraped_date)
-
-
+            scraped_date = timestamp.split('T')[0]
+            scraped_time = timestamp.split('T')[1]
+            add_tour_price(detail, session, config_obj, scraped_date, scraped_time)
         # tour_prices
 
 
@@ -54,17 +54,20 @@ def get_or_create(session, model, defaults=None, **kwargs):
             return instance, True
 
 
-def add_tour_price(detail, session, tour_config_obj, scraped_date):
+def add_tour_price(detail, session, tour_config_obj, scraped_date, scraped_time):
     tour_approved = detail.approved
     tour_price = detail.term_price
     tour_price_pp = detail.term_price_pp
-    tour_price_o = get_or_create(session, TourPrice,
-                                 scraped_date=scraped_date,
-                                 tour_approved=tour_approved,
-                                 tour_price=tour_price,
-                                 tour_price_pp=tour_price_pp,
-                                 tour_config=tour_config_obj[0],
-                                 tour_config_id=tour_config_obj[0].id)
+    tour_price_o = get_or_create(
+        session, TourPrice,
+        scraped_date=scraped_date,
+        scraped_time=scraped_time,
+        tour_approved=tour_approved,
+        tour_price=tour_price,
+        tour_price_pp=tour_price_pp,
+        tour_config=tour_config_obj[0],
+        tour_config_id=tour_config_obj[0].id
+    )
     return tour_price_o
 
 

@@ -18,12 +18,6 @@ import argparse
 #TODO: add locations and additional costs
 #TODO: check if it's saved in the same catalog on the server
 
-def add_jsons_to_db(start_date, end_date):
-    if not end_date:
-        end_date = start_date
-    add_to_db_scraped_files(start_date, end_date)
-
-
 #################### DROPPING DB #############################
 # Base.metadata.drop_all(engine)
 # Base.metadata.create_all(engine)
@@ -39,6 +33,7 @@ if __name__ == "__main__":
     parser.add_argument("--start_date", required=False, type=str, help="Save data from files in database from start_date")
     parser.add_argument("--end_date", required=False, type=str, help="Save data from files in database till end_date")
     parser.add_argument("--clean_db", action='store_true', help="Drop DB")
+    parser.add_argument("--insert_specific_dt", action='store_true', help="insert to db data from specific dt")
 
     args = parser.parse_args()
 
@@ -49,8 +44,12 @@ if __name__ == "__main__":
         end_date = args.end_date
         if not end_date:
             end_date = args.start_date
-        add_to_db_scraped_files(args.start_date, end_date)
+        add_to_db_scraped_files('Rainbow', args.start_date, end_date)
+    elif args.insert_specific_dt:
+        #end_date = args.start_date
+        #add_to_db_scraped_files('Rainbow', args.start_date, end_date, specific_file_name=None)
+        raise NotImplementedError
     else:
-        today = datetime.today().strftime('%d-%m-%Y')
+        today = datetime.today().strftime('%Y-%m-%d')
         tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
-        add_to_db_scraped_files(today, today) #TODO: modify to one argument
+        add_to_db_scraped_files('Rainbow', today, today)
