@@ -5,8 +5,8 @@ import os
 import sys
 sys.path.insert(0,'/home/krasnal/Projects/my_projects/ToursAnalytics/scraper') #TODO: change this
 from tours.tour import Tour, TermsDetails
-from models.test_db_adding import add_data_to_database
 import logging
+import gzip
 
 DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move to settings
 
@@ -18,13 +18,26 @@ DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move 
 
 # trip_type = 'objazd'
 
-
-def save_json_to_file(data, file_name: str) -> None:
-    today = datetime.date.today().strftime('%d-%m-%Y')
+def save_json_to_gz_file(tour_operator, data, tour_name: str) -> None:
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    timestamp = datetime.datetime.now().isoformat()
     json_object = json.dumps(data, indent=4)
-    file_name_with_date = f'{file_name}-{today}.json'
+    file_name_with_date = f'{tour_name}_{timestamp}.json.gz'
 
-    path = f'results/{today}/' #TODO: in path should be also name of the scraper /Rainbow/
+    path = f'results/{tour_operator}/{today}/{tour_name}/'
+    if not os.path.exists(path):
+        os.makedirs(path, exist_ok=True)
+
+    with gzip.open(path + file_name_with_date, 'wt') as outfile:
+        outfile.writelines(json_object)
+
+def save_json_to_file(tour_operator, data, tour_name: str) -> None:
+    today = datetime.date.today().strftime('%Y-%m-%d')
+    timestamp = datetime.datetime.now().isoformat()
+    json_object = json.dumps(data, indent=4)
+    file_name_with_date = f'{tour_name}_{timestamp}.json'
+
+    path = f'results/{tour_operator}/{today}/{tour_name}/'
     if not os.path.exists(path):
         os.makedirs(path, exist_ok=True)
 
@@ -91,12 +104,11 @@ class RainbowParser:
             tour_type=self.tour_type,
             tour_url=self.tour_url,
             klucz_omnibus=self.klucz_omnibus,
-            tour_id = self.tour_id,
+            tour_id=self.tour_id,
             terms_and_prices=self.get_terms_and_prices(),
             start_locations=self.start_locations,
-            grade = self.grade,
-            photos = self.photos
-
+            grade=self.grade,
+            photos=self.photos
         )
         return tour_obj
 
@@ -209,7 +221,8 @@ class RainbowScraper:
         # TODO: check correct response
         return response.json()
 
-import pprint
+
+#TODO: this should be inside Rainbow class
 def main_rainbow(save_to_json: bool) -> None:
     scraper = RainbowScraper()
     tours = scraper.merge_tours()
@@ -228,12 +241,14 @@ def main_rainbow(save_to_json: bool) -> None:
             continue
 
         if save_to_json:
-            save_json_to_file(merged_tour_details, scraper.get_product_url(tour_details))
+            #save_json_to_file('Rainbow', merged_tour_details, scraper.get_product_url(tour_details))
+            save_json_to_gz_file('Rainbow', merged_tour_details, scraper.get_product_url(tour_details))
 
         tour_obj = RainbowParser(merged_tour_details).create_tour()
 
 
     if save_to_json:
-        save_json_to_file(tours, f'all-results')
+        # save_json_to_file('Rainbow', tours, f'all-results')
+        save_json_to_gz_file('Rainbow', tours, f'all-results')
 
 

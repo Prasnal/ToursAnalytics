@@ -16,9 +16,7 @@ class TourAgency(Base):
     id: Mapped[intpk] = mapped_column(init=False, primary_key=True)
     agency_name: Mapped[str] = mapped_column(String(30), unique=True, nullable=False)
     agency_url: Mapped[str] = mapped_column(URLType, unique=True, nullable=False)
-
     tours: Mapped[List["Tour"]] = relationship(back_populates="tour_agency", cascade='all, delete-orphan')
-
 
     def __repr__(self) -> str:
         return f"Agency(id={self.id!r}, agency_name={self.agency_name!r}, agency_url={self.agency_url!r})"
