@@ -52,4 +52,4 @@ if __name__ == "__main__":
     else:
         today = datetime.today().strftime('%Y-%m-%d')
         tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
-        add_to_db_scraped_files('Rainbow', today, today)
+        #add_to_db_scraped_files('Rainbow', today, today)
