@@ -50,6 +50,15 @@ if __name__ == "__main__":
         #add_to_db_scraped_files('Rainbow', args.start_date, end_date, specific_file_name=None)
         raise NotImplementedError
     else:
-        today = datetime.today().strftime('%Y-%m-%d')
+        today = datetime.today()
+        #today_str=today.strftime('%Y-%m-%d')
+        yesterday = today - timedelta(days=1)
+        try:
+            rainbow_without_parsing.gzip_date(tour_operator='Rainbow', date=yesterday)
+        except Exception as e:
+            logging.error("Error parsing results to gzip {}".format(e))
+        else:
+            rainbow_without_parsing.delete_folder(tour_operator='Rainbow', date=yesterday)
+
         tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
         #add_to_db_scraped_files('Rainbow', today, today)
