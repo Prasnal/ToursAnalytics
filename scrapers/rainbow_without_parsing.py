@@ -6,7 +6,7 @@ import sys
 sys.path.insert(0,'/home/krasnal/Projects/my_projects/ToursAnalytics/scraper') #TODO: change this
 from tours.tour import Tour, TermsDetails
 import logging
-import gzip
+import gzip, tarfile, shutil
 
 DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move to settings
 
@@ -17,6 +17,37 @@ DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move 
 # TODO: add tests
 
 # trip_type = 'objazd'
+
+
+def gzip_date(tour_operator, date):
+    # if type(date) == datetime.datetime:
+    date = date.strftime('%Y-%m-%d')
+
+    path = f'results/{tour_operator}/{date}'
+    if os.path.exists(path):
+        if not os.path.exists(path +'.tgz'):
+            with tarfile.open(path + ".tgz", "w:gz") as tar:
+                tar.add(path, arcname=date)
+        else:
+            logging.info("GZIP with results for {} already exists".format(date))
+    else:
+        logging.warning("Didn't find any results for {}".format(date))
+
+
+def delete_folder(tour_operator, date):
+    # if type(date) == datetime.datetime:
+    date = date.strftime('%Y-%m-%d')
+    path = f'results/{tour_operator}/{date}'
+    path_gzip = f'results/{tour_operator}/{date}'+'.tgz'
+
+    if os.path.exists(path) and os.path.getsize(path_gzip) > 100:
+        logging.info("file size {}".format(os.path.getsize(path_gzip)))
+        shutil.rmtree(path)
+        logging.info("Folder {} was removed".format(path))
+    else:
+        logging.info("Path: {} doesn't exist so cannot be deleted or gzip is too small (are files properly packed?)".format(path))
+
+
 
 def save_json_to_gz_file(tour_operator, data, tour_name: str) -> None:
     today = datetime.date.today().strftime('%Y-%m-%d')
