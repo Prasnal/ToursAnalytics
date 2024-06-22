@@ -1,6 +1,6 @@
 from sqlalchemy_utils import URLType
 from models.connection import Base
-from sqlalchemy import String
+from sqlalchemy import String, Index
 from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from typing_extensions import Annotated
@@ -17,6 +17,8 @@ class TourAgency(Base):
     agency_name: Mapped[str] = mapped_column(String(30), unique=True, nullable=False)
     agency_url: Mapped[str] = mapped_column(URLType, unique=True, nullable=False)
     tours: Mapped[List["Tour"]] = relationship(back_populates="tour_agency", cascade='all, delete-orphan')
+
+    __table_args__ = (Index('name_url_index', "agency_name", "agency_url"),)
 
     def __repr__(self) -> str:
         return f"Agency(id={self.id!r}, agency_name={self.agency_name!r}, agency_url={self.agency_url!r})"

@@ -1,17 +1,15 @@
 import logging
+import argparse
+
 from datetime import datetime
 from datetime import timedelta
-import json
-import os
-from scrapers import rainbow_without_parsing
+from utils.utils import gzip_date, remove_directory_if_tarred
+from scrapers import rainbow
+from utils.add_scraped_files import add_to_db_all_scraped_files, add_files_to_db
+from models.connection import engine, Base
+
 logging.basicConfig(level=logging.INFO)
 
-from models.test_db_adding import add_data_to_database
-from utils.add_scraped_files import add_to_db_scraped_files
-
-from models.connection import engine, Base
-import traceback
-import argparse
 
 #TODO: photos should be many to many [NOT RELEVANT NOW, leave it as it is until we need photos]
 #TODO: get_or_create for tours should filter only via tour_url, tour_name can be different
@@ -24,7 +22,7 @@ import argparse
 ##############################################################
 
 #add_to_db_scraped_files('01-01-2024', '03-01-2024')
-#rainbow_without_parsing.main_rainbow(save_to_json=True, save_to_db=True)
+#rainbow.main_rainbow(save_to_json=True, save_to_db=True)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
@@ -33,7 +31,6 @@ if __name__ == "__main__":
     parser.add_argument("--start_date", required=False, type=str, help="Save data from files in database from start_date")
     parser.add_argument("--end_date", required=False, type=str, help="Save data from files in database till end_date")
     parser.add_argument("--clean_db", action='store_true', help="Drop DB")
-    parser.add_argument("--insert_specific_dt", action='store_true', help="insert to db data from specific dt")
 
     args = parser.parse_args()
 
@@ -44,21 +41,19 @@ if __name__ == "__main__":
         end_date = args.end_date
         if not end_date:
             end_date = args.start_date
-        add_to_db_scraped_files('Rainbow', args.start_date, end_date)
-    elif args.insert_specific_dt:
-        #end_date = args.start_date
-        #add_to_db_scraped_files('Rainbow', args.start_date, end_date, specific_file_name=None)
-        raise NotImplementedError
+
+        add_to_db_all_scraped_files('Rainbow', args.start_date, end_date)
     else:
         today = datetime.today()
-        #today_str=today.strftime('%Y-%m-%d')
         yesterday = today - timedelta(days=1)
         try:
-            rainbow_without_parsing.gzip_date(tour_operator='Rainbow', date=yesterday)
+            gzip_date('Rainbow', yesterday)
         except Exception as e:
             logging.error("Error parsing results to gzip {}".format(e))
         else:
-            rainbow_without_parsing.delete_folder(tour_operator='Rainbow', date=yesterday)
+            path = f'results/Rainbow/{yesterday.strftime('%Y-%m-%d')}'
+            remove_directory_if_tarred(path)
 
-        tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
-        #add_to_db_scraped_files('Rainbow', today, today)
+        tours_details = rainbow.main_rainbow(save_to_json=True)
+        created_files = [tour_details['path'] for tour_details in tours_details.values()]
+        add_files_to_db(created_files)

@@ -1,5 +1,4 @@
-
-from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float
+from sqlalchemy import Integer, Date, Float
 from models.connection import Base
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
@@ -29,6 +28,13 @@ class TourConfig(Base):
     tour_prices: Mapped[List["TourPrice"]] = relationship(back_populates="tour_config", cascade='all, delete-orphan')
 
     # scraper_active = Column(Boolean, default=True)
+
+    # __table_args__ = (Index('tour_configs_index',
+    #                         "tour_length", "start_tour_date",
+    #                         "start_location", "location_additional_cost",
+    #                         "start_tour_date", "end_tour_date", "tour_id"),)
+
+
 
     def __repr__(self) -> str:
         return (f"Config(id={self.id!r}, tour_length={self.tour_length!r},"

@@ -6,7 +6,7 @@
 #grade
 
 
-from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float, Time
+from sqlalchemy import String, Column, Table, Boolean, Integer, Sequence, Date, Float, Time, Index
 from models.connection import Base
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
@@ -30,6 +30,11 @@ class TourPrice(Base):
 
     tour_config_id: Mapped[int] = mapped_column(ForeignKey("tour_config.id"))
     tour_config: Mapped["TourConfig"] = relationship(back_populates="tour_prices")
+
+    __table_args__ = (Index('tour_prices_index',
+                            "scraped_date", "scraped_time",
+                            "tour_approved", "tour_price",
+                            "tour_price_pp", "tour_config_id"),)
 
     def __repr__(self) -> str:
         return f"Prices(id={self.id!r}, scraped_date={self.scraped_date!r}, tour_approved={self.tour_approved!r}, tour_price={self.tour_price!r}, tour_config={self.tour_config!r})"

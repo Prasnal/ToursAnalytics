@@ -1,7 +1,6 @@
-from models.connection import Session, engine, Base
+from models.connection import Session
 from models.countries import Country
 from models.tour_agencies import TourAgency
-# from models.tour_types import TourType
 from models.tours import Tour
 from models.photos import Photos
 from models.tour_types import TourType
@@ -9,7 +8,6 @@ from models.tour_prices import TourPrice
 from models.tour_configurations import TourConfig
 from sqlalchemy.exc import IntegrityError
 from psycopg2.errors import UniqueViolation
-from datetime import datetime
 import logging
 
 
@@ -105,6 +103,7 @@ def add_tour(obj, session, tour_type_obj, tour_agency_obj, countries_objs_list):
     tour_name = obj.tour_name
     tour_url = obj.tour_url
     logging.info(f"Adding tour to db: {tour_name}")
+
     tour_obj = get_or_create(session,
                              Tour,
                              defaults={

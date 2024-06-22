@@ -7,7 +7,7 @@ from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
 #from models.countries import Country
-from sqlalchemy import Column, Table
+from sqlalchemy import Column, Table, Index
 from typing import Optional
 
 # FK: tour agency, countries, tour_type,
@@ -47,6 +47,10 @@ class Tour(Base):
     countries: Mapped[List["Country"]] = relationship(
         secondary=association_table, back_populates="tours"
     )
+
+    __table_args__ = (Index('tour_name_type_agency_index',
+                            "tour_name", "tour_type_id", "tour_agency_id"),)
+
 
 
     def __repr__(self) -> str:
