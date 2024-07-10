@@ -1,4 +1,4 @@
-from sqlalchemy import Integer, Date, Float
+from sqlalchemy import Integer, Date, Float, Index
 from models.connection import Base
 from sqlalchemy import ForeignKey
 from sqlalchemy import String
@@ -6,6 +6,7 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
+
 import datetime
 from typing import List
 
@@ -29,10 +30,9 @@ class TourConfig(Base):
 
     # scraper_active = Column(Boolean, default=True)
 
-    # __table_args__ = (Index('tour_configs_index',
-    #                         "tour_length", "start_tour_date",
-    #                         "start_location", "location_additional_cost",
-    #                         "start_tour_date", "end_tour_date", "tour_id"),)
+    __table_args__ = (Index('tour_configs_index',
+                            "tour_length", "start_tour_date",
+                            "start_location", "location_additional_cost", "end_tour_date", "tour_id"),)
 
 
 

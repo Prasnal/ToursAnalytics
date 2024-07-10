@@ -198,7 +198,7 @@ def main_rainbow(save_to_json: bool) -> dict:
     tours = scraper.merge_tours()
     tours_data = dict()
 
-    for tour in tours:
+    for tour in tours[:3]: #TODO: remove
         logging.info(tour)
         try:
             tour_details = scraper.get_tour_details(tour)

@@ -5,7 +5,7 @@ from datetime import datetime
 from datetime import timedelta
 from utils.utils import gzip_date, remove_directory_if_tarred
 from scrapers import rainbow
-from utils.add_scraped_files import add_to_db_all_scraped_files, add_files_to_db
+from utils.add_scraped_files import add_to_db_all_scraped_files, add_files_to_db, insert_one_day_to_db
 from models.connection import engine, Base
 
 logging.basicConfig(level=logging.INFO)
@@ -40,9 +40,12 @@ if __name__ == "__main__":
     elif args.start_date:
         end_date = args.end_date
         if not end_date:
-            end_date = args.start_date
+            insert_one_day_to_db('Rainbow', '2024-06-10')
+            #end_date = args.start_date
+
 
         add_to_db_all_scraped_files('Rainbow', args.start_date, end_date)
+
     else:
         today = datetime.today()
         yesterday = today - timedelta(days=1)

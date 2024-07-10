@@ -20,7 +20,7 @@ def add_data_to_database(obj, timestamp):
         tour_type_o = add_tour_type(obj, session)
         tour_obj = add_tour(obj, session, tour_type_o, agency_obj, countries_objs)
 
-        photo_objs = add_photos(obj, session, tour_obj)
+        #photo_objs = add_photos(obj, session, tour_obj)
         details = obj.terms_and_prices
         for detail in details:
             config_obj = add_tour_config(detail, session, tour_obj)
@@ -33,6 +33,7 @@ def add_data_to_database(obj, timestamp):
 def get_or_create(session, model, defaults=None, **kwargs):
     instance = session.query(model).filter_by(**kwargs).one_or_none()
     if instance:
+        logging.info("Object is already in the database, skipping...")
         return instance, False
     else:
         kwargs |= defaults or {}
@@ -126,6 +127,7 @@ def add_tour(obj, session, tour_type_obj, tour_agency_obj, countries_objs_list):
     return tour_obj
 
 
+# It's not used for now, I don't need photos so far
 def add_photos(obj, session, tour_obj):
     photo_objs = []
     for photo_url in obj.photos:

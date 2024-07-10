@@ -6,9 +6,8 @@ from sqlalchemy.orm import Mapped
 from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
-#from models.countries import Country
 from sqlalchemy import Column, Table, Index
-from typing import Optional
+#from typing import Optional
 
 # FK: tour agency, countries, tour_type,
 # tour_type, tour_name, tour_url, klucz_omnibus, tour_id, grade, photos
