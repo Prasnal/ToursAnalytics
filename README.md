@@ -2,7 +2,7 @@
 Purpose of this project is to analize data from travel office websites, and answer the question when is the best time to book holiday :)
 
 
-To achieve the goal, I create an ETL pipline using airflow as a main tool.
+To achieve the goal, I work on an ETL pipline using airflow as a main tool.
 For now, the project supports only one website: https://r.pl/.
 Tour-related data from the website is scraped and saved in files as source of raw data. 
 As the next step, data is inserted to the postgres db and it's used to create dashboards on superset.
@@ -18,16 +18,16 @@ Most of them are just my side-notes to remember what happens when I have some ti
 
 So far, airflow pipeline is created only to add historical files to db.
 You choose date of first file, and date of last file you would like to add to the db, and tour operator name:
-![Selection_347.png](..%2F..%2F..%2F..%2FPictures%2FSelection_347.png)
+![Selection_347.png](images/Selection_347.png)
 
 Dates beetween are automatically generated, and insert_data tasks are created dynamically per each day:
-![Selection_348.png](..%2F..%2F..%2F..%2FPictures%2FSelection_348.png)
+![Selection_348.png](images/Selection_348.png)
 
 As the next step, new DAG with adding day-to-day data will be created (retrieve_data -> clean_data -> add_to_db -> analize)
 to remove current cronjob solution, and use airflow pipeline instead.
 
 And for now, only one basic dashboard is created:
-![Selection_346.png](..%2F..%2F..%2F..%2FPictures%2FSelection_346.png)
+![Selection_346.png](images/Selection_346.png)
 
 Data is scraped from January 2024 without issues.
 
