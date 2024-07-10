@@ -164,6 +164,7 @@ def insert_single_file_to_db(tour_operator, date, tour_name, tour_file_with_exte
     logging.info(f"Adding to database {tour_file_with_extension}:")
     add_data_to_database(obj, timestamp)
 
+#TODO: this is old part of code, refactoring is WIP - this function should use functions implemented above
 def add_to_db_all_scraped_files(tour_office, start_date, end_date, **kwargs):
     catalog_names = generate_dates_between(start_date, end_date)
     for date in catalog_names:
