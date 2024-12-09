@@ -12,31 +12,60 @@ from psycopg2.errors import UniqueViolation
 from datetime import datetime
 import logging
 
+# logging.basicConfig(
+#     level=logging.INFO,
+#     format="%(asctime)s - %(levelname)s : %(message)s",
+#     datefmt="%Y-%m-%d,%H:%M:%S ",
+#     handlers=[
+#         logging.StreamHandler(),
+#     ],
+# )
 
 
 
 def add_data_to_database(obj, timestamp):
     with Session() as session:
+        logging.debug(f"Starting create objects")
         agency_obj = add_tour_agency(obj, session)
         countries_objs = add_countries(obj, session)
         tour_type_o = add_tour_type(obj, session)
         tour_obj = add_tour(obj, session, tour_type_o, agency_obj, countries_objs)
+        #photo_objs = add_photos(obj, session, tour_obj)
+        logging.debug(f"Finished creating objects")
 
-        photo_objs = add_photos(obj, session, tour_obj)
         details = obj.terms_and_prices
+        logging.debug(f"Started adding to db details")
         for detail in details:
+            logging.debug(f"Started adding to db tour_config")
             config_obj = add_tour_config(detail, session, tour_obj)
+            logging.debug(f"Finished adding to db tour_config")
             scraped_date = timestamp.split('T')[0]
             scraped_time = timestamp.split('T')[1]
+            logging.debug(f"Started adding to db tour_prices")
             add_tour_price(detail, session, config_obj, scraped_date, scraped_time)
+            logging.debug(f"Finished adding to db tour_prices")
+        logging.debug(f"Finished adding to db details")
         # tour_prices
 
-
+from sqlalchemy.dialects import postgresql
 def get_or_create(session, model, defaults=None, **kwargs):
-    instance = session.query(model).filter_by(**kwargs).one_or_none()
+    logging.debug(f"Starting getting instance")
+    query = session.query(model).filter_by(**kwargs)
+
+    sql_query = query.statement.compile(
+        dialect=postgresql.dialect(),
+        compile_kwargs={"literal_binds": True}
+    )
+    logging.debug(f"Generated SQL for SELECT: {sql_query}")
+
+    instance = query.one_or_none()
+
+    logging.debug(f"Finished getting creating instance")
+
     if instance:
         return instance, False
     else:
+        logging.debug(f"Adding instance")
         kwargs |= defaults or {}
         instance = model(**kwargs)
         try:
@@ -51,13 +80,16 @@ def get_or_create(session, model, defaults=None, **kwargs):
             else:
                 raise Exception("ANOTHER ERROR:", e)
         else:
+            logging.debug(f"Finished adding instance")
             return instance, True
+
 
 
 def add_tour_price(detail, session, tour_config_obj, scraped_date, scraped_time):
     tour_approved = detail.approved
     tour_price = detail.term_price
     tour_price_pp = detail.term_price_pp
+    logging.debug("Start get_or_create tour_price")
     tour_price_o = get_or_create(
         session, TourPrice,
         scraped_date=scraped_date,
@@ -68,6 +100,7 @@ def add_tour_price(detail, session, tour_config_obj, scraped_date, scraped_time)
         tour_config=tour_config_obj[0],
         tour_config_id=tour_config_obj[0].id
     )
+    logging.debug("Finish get_or_create tour_price")
     return tour_price_o
 
 

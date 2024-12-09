@@ -8,6 +8,7 @@ from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
 #from models.countries import Country
 from sqlalchemy import Column, Table
+from sqlalchemy import Index
 from typing import Optional
 
 # FK: tour agency, countries, tour_type,
@@ -25,6 +26,15 @@ intpk = Annotated[int, mapped_column(primary_key=True)]
 
 class Tour(Base):
     __tablename__ = 'tour'
+
+    __table_args__ = (
+        Index(
+            'idx_tour_query',
+            'tour_name',
+            'tour_type_id',
+            'tour_agency_id'
+        ),
+    )
 
     id: Mapped[intpk] = mapped_column(init=False) # TODO: unique
     original_tour_id: Mapped[str] = mapped_column(unique=False, nullable=True) #

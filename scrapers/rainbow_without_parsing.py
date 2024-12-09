@@ -15,9 +15,18 @@ DIR = '/home/krasnal/Projects/my_projects/ToursAnalytics/scraper'  # TODO: move 
 # TODO: create class RainbowToursScraper
 # TODO: add exceptions and validations
 # TODO: add tests
+# TODO: add files extension as param for scraping
 
 # trip_type = 'objazd'
-
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s.%(msecs)03d - %(levelname)s : %(message)s",
+    datefmt="%Y-%m-%d %H:%M:%S",
+    handlers=[
+        logging.StreamHandler(),
+        # logging.FileHandler("test.log", "a"),
+    ],
+)
 
 def gzip_date(tour_operator, date):
     # if type(date) == datetime.datetime:
@@ -39,9 +48,17 @@ def delete_folder(tour_operator, date):
     date = date.strftime('%Y-%m-%d')
     path = f'results/{tour_operator}/{date}'
     path_gzip = f'results/{tour_operator}/{date}'+'.tgz'
+    path_targz = f'results/{tour_operator}/{date}'+'.tar.gz'
 
-    if os.path.exists(path) and os.path.getsize(path_gzip) > 100:
-        logging.info("file size {}".format(os.path.getsize(path_gzip)))
+    if os.path.isfile(path_gzip):
+        tarred_path = path_gzip
+    elif os.path.isfile(path_targz):
+        tarred_path = path_targz
+    else:
+        logging.warning("GZIP with results for {} doesn't exist".format(date))
+
+    if os.path.exists(path) and os.path.getsize(tarred_path) > 100:
+        logging.info("file size {}".format(os.path.getsize(tarred_path)))
         shutil.rmtree(path)
         logging.info("Folder {} was removed".format(path))
     else:

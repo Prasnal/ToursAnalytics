@@ -15,12 +15,23 @@ from sqlalchemy.orm import mapped_column
 from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
 import datetime
+from sqlalchemy import Index
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
 class TourPrice(Base):
     __tablename__ = 'tour_price'
+    __table_args__ = (
+        Index('idx_tour_price_query',
+              'scraped_time',
+              'scraped_date',
+              'tour_config_id',
+              'tour_price',
+              'tour_price_pp',
+              'tour_approved',
+              ),
+    )
     id: Mapped[intpk] = mapped_column(init=False)
     scraped_date: Mapped[datetime.datetime] = mapped_column(Date(), nullable=False)
     scraped_time: Mapped[datetime.datetime] = mapped_column(Time(), nullable=True)

@@ -5,7 +5,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm import DeclarativeBase
 from sqlalchemy.orm import MappedAsDataclass
 from sqlalchemy.exc import IntegrityError
-from psycopg2.errors import UniqueViolation
+#from psycopg2.errors import UniqueViolation
 from sqlalchemy import text
 import os
 from dotenv import load_dotenv

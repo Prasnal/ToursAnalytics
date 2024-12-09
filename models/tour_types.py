@@ -8,11 +8,11 @@ from typing_extensions import Annotated
 from sqlalchemy.orm import mapped_column
 from models.tours import Tour
 
-
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
 class TourType(Base):
     __tablename__ = 'tour_type'
+
     id: Mapped[intpk] = mapped_column(init=False)
     tour_type: Mapped[str] = mapped_column(String(100), nullable=False)
 
