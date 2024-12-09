@@ -112,8 +112,12 @@ def add_to_db_scraped_files(tour_office, start_date, end_date, **kwargs):
                         timestamp = file_name.split('_')[-1].strip('.json.gz')
                         json_bytes = f.read()
 
-                    json_str = json_bytes.decode('utf-8')
-                    data = json.loads(json_str)
+                    try:
+                        json_str = json_bytes.decode('utf-8')
+                        data = json.loads(json_str)
+                    except Exception as e:
+                        logging.error(f"Failed to read json file: {file_name}")
+                        continue
 
                 elif extension == 'json':
                     with open(full_path) as f:
