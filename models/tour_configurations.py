@@ -9,12 +9,31 @@ from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
 import datetime
 from typing import List
+from sqlalchemy import Index
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
+'''
+SELECT tour_config.id, tour_config.tour_length, tour_config.start_tour_date, tour_config.end_tour_date, tour_config.tour_id, tour_config.start_location, tour_config.location_additional_cost 
+FROM tour_config 
+WHERE tour_config.tour_length = 13 AND tour_config.start_location IS NULL AND tour_config.location_additional_cost IS NULL AND tour_config.start_tour_date = '2025-04-07' AND tour_config.end_tour_date = '2025-04-19' AND 1 = tour_config.tour_id AND tour_config.tour_id = 1
+
+'''
 
 class TourConfig(Base):
     __tablename__ = 'tour_config'
+
+    __table_args__ = (
+        Index(
+            'idx_tour_config_query',
+            'start_tour_date',
+            'end_tour_date',
+            'tour_id',
+            'tour_length',
+            'start_location',
+            'location_additional_cost'
+        ),
+    )
     id: Mapped[intpk] = mapped_column(init=False)
     tour_length: Mapped[int] = mapped_column(Integer(), nullable=True)
     start_tour_date: Mapped[datetime.datetime] = mapped_column(Date())

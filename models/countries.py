@@ -7,12 +7,21 @@ from sqlalchemy.orm import relationship
 from typing import List
 from models.tours import association_table
 from typing import Optional
+from sqlalchemy import Index
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
 
 class Country(Base):
     __tablename__ = 'country'
+
+    __table_args__ = (
+        Index(
+            'idx_country',  # Name of the index
+            'country_name',
+            'country_code',
+        ),
+    )
 
     id: Mapped[intpk] = mapped_column(init=False, primary_key=True)
     country_name: Mapped[str] = mapped_column(String(30), unique=True, nullable=False)

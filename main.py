@@ -4,10 +4,10 @@ from datetime import timedelta
 import json
 import os
 from scrapers import rainbow_without_parsing
-logging.basicConfig(level=logging.INFO)
+# logging.basicConfig(level=logging.INFO)
 
 from models.test_db_adding import add_data_to_database
-from utils.add_scraped_files import add_to_db_scraped_files
+from utils.add_scraped_files import add_to_db_scraped_files, rootdir, rename_tar_gz_to_tgz
 
 from models.connection import engine, Base
 import traceback
@@ -34,10 +34,13 @@ if __name__ == "__main__":
     parser.add_argument("--end_date", required=False, type=str, help="Save data from files in database till end_date")
     parser.add_argument("--clean_db", action='store_true', help="Drop DB")
     parser.add_argument("--insert_specific_dt", action='store_true', help="insert to db data from specific dt")
+    parser.add_argument('--fix_files', action='store_true', help="change extensions to tar.gz")
 
     args = parser.parse_args()
 
-    if args.clean_db:
+    if args.fix_files:
+        rename_tar_gz_to_tgz(rootdir)
+    elif args.clean_db:
         Base.metadata.drop_all(engine)
         Base.metadata.create_all(engine)
     elif args.start_date:
@@ -61,4 +64,5 @@ if __name__ == "__main__":
             rainbow_without_parsing.delete_folder(tour_operator='Rainbow', date=yesterday)
 
         tour_obj = rainbow_without_parsing.main_rainbow(save_to_json=True)
-        #add_to_db_scraped_files('Rainbow', today, today)
+        today_str = today.strftime('%Y-%m-%d')
+        add_to_db_scraped_files('Rainbow', today_str, today_str)
