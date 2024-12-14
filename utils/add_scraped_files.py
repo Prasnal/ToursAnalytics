@@ -56,7 +56,8 @@ def rename_tar_gz_to_tgz(directory):
         print(f"An error occurred: {e}")
 
 
-def add_to_db_scraped_files(tour_office, start_date, end_date, **kwargs):
+#todo: add possibility to add to db only last file from tour (for main parser)
+def add_to_db_scraped_files(tour_office, start_date, end_date, only_last_file=False, **kwargs):
     catalog_names = generate_dates_between(start_date, end_date)
     for date in catalog_names:
         untarred_path = rootdir+tour_office+'/'+date
@@ -101,7 +102,10 @@ def add_to_db_scraped_files(tour_office, start_date, end_date, **kwargs):
                 file_name = kwargs['specific_file_name']
             else:
                 files.sort()
-                file_name = files[0]
+                # last_file_name = files[0]
+            if only_last_file:
+                # print("FILES SORETED:", files)
+                files = [files[-1]] # - sprawdzic sortowanie
 
             for file_name in files:
                 full_path = f"{path}/{tour_name}/{file_name}"
