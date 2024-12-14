@@ -9,7 +9,7 @@ from sqlalchemy.orm import relationship
 from typing_extensions import Annotated
 import datetime
 from typing import List
-from sqlalchemy import Index
+from sqlalchemy import Index, UniqueConstraint
 
 intpk = Annotated[int, mapped_column(primary_key=True)]
 
@@ -24,6 +24,10 @@ class TourConfig(Base):
     __tablename__ = 'tour_config'
 
     __table_args__ = (
+        UniqueConstraint(
+            'start_tour_date', 'end_tour_date', 'tour_id', 'tour_length',
+            name='uq_tour_config_dates_tour'
+        ),
         Index(
             'idx_tour_config_query',
             'start_tour_date',
