@@ -63,6 +63,7 @@ def get_or_create(session, model, defaults=None, **kwargs):
     logging.debug(f"Finished getting creating instance")
 
     if instance:
+        logging.info(f"Instance {instance} already exists")
         return instance, False
     else:
         logging.debug(f"Adding instance")
